@@ -67,4 +67,3 @@ class LoginPage(BasePage):
         self.nav.navigateToUserSettings()
         self.elementClick(locator="Sign out",
                           locatorType="link")
-

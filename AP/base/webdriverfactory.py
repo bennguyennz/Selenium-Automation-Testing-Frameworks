@@ -9,6 +9,7 @@ Example:
     wdf.getWebDriverInstance()
 """
 import traceback
+import os
 from selenium import webdriver
 
 class WebDriverFactory():
@@ -46,7 +47,10 @@ class WebDriverFactory():
             driver = webdriver.Firefox()
         elif self.browser == "chrome":
             # Set chrome driver
-            driver = webdriver.Chrome()
+            chromedriver = "/Users/phuongvth/Documents/workspace_python/chromedriver.exe"
+            os.environ["webdriver.chrome.driver"] = chromedriver
+            driver = webdriver.Chrome(chromedriver)
+            driver.set_window_size(1280,800)
         else:
             driver = webdriver.Chrome()
         # Setting Driver Implicit Time out for An Element
