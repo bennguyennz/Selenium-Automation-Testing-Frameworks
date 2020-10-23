@@ -1919,3 +1919,219 @@
 10/24/2020 02:10:51 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
 10/24/2020 02:10:51 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
 10/24/2020 02:10:51 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+10/24/2020 02:22:48 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 02:22:49 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 02:22:50 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 02:22:50 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 02:22:50 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 02:22:51 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 02:22:51 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 02:22:52 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 02:22:52 AM - LoginPage - INFO: Element found with locator: //h1[contains(text(),'My account')] and  locatorType: xpath
+10/24/2020 02:22:52 AM - LoginPage - INFO: Element present with locator: //h1[contains(text(),'My account')] locatorType: xpath
+10/24/2020 02:22:52 AM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+10/24/2020 02:22:52 AM - TrackStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+10/24/2020 02:22:55 AM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+10/24/2020 02:22:55 AM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+10/24/2020 02:22:55 AM - LoginPage - INFO: Element found with locator: Sign out and  locatorType: link
+10/24/2020 02:22:58 AM - LoginPage - INFO: Clicked on element with locator: Sign out locatorType: link
+10/24/2020 02:22:58 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 02:23:00 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 02:23:00 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 02:23:00 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 02:23:00 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 02:23:00 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 02:23:00 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 02:23:01 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 02:23:02 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+10/24/2020 02:23:02 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+10/24/2020 02:23:05 AM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+10/24/2020 02:23:05 AM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+10/24/2020 02:23:08 AM - LoginPage - INFO: Element not found with locator: Sign out and  locatorType: link
+10/24/2020 02:23:08 AM - LoginPage - INFO: Cannot click on the element with locator: Sign out locatorType: link
+10/24/2020 02:23:08 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 02:23:10 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 02:23:10 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 02:23:10 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 02:23:10 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 02:23:10 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 02:23:10 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 02:23:11 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 02:23:11 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+10/24/2020 02:23:11 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+10/24/2020 02:23:14 AM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+10/24/2020 02:23:14 AM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+10/24/2020 02:23:17 AM - LoginPage - INFO: Element not found with locator: Sign out and  locatorType: link
+10/24/2020 02:23:17 AM - LoginPage - INFO: Cannot click on the element with locator: Sign out locatorType: link
+10/24/2020 02:23:17 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 02:23:19 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 02:23:19 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 02:23:20 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 02:23:20 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 02:23:20 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 02:23:20 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 02:23:21 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 02:23:21 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+10/24/2020 02:23:21 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+10/24/2020 02:23:45 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 02:23:47 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 02:23:47 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 02:23:48 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 02:23:48 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 02:23:48 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 02:23:48 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 02:23:50 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 02:23:50 AM - LoginPage - INFO: Element found with locator: //h1[contains(text(),'My account')] and  locatorType: xpath
+10/24/2020 02:23:50 AM - LoginPage - INFO: Element present with locator: //h1[contains(text(),'My account')] locatorType: xpath
+10/24/2020 02:23:50 AM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+10/24/2020 02:23:50 AM - TrackStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+10/24/2020 02:23:53 AM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+10/24/2020 02:23:53 AM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+10/24/2020 02:23:53 AM - LoginPage - INFO: Element found with locator: Sign out and  locatorType: link
+10/24/2020 02:23:56 AM - LoginPage - INFO: Clicked on element with locator: Sign out locatorType: link
+10/24/2020 02:23:56 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 02:23:58 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 02:23:58 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 02:23:58 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 02:23:58 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 02:23:58 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 02:23:58 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 02:24:00 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 02:24:00 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+10/24/2020 02:24:00 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+10/24/2020 02:24:03 AM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+10/24/2020 02:24:03 AM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+10/24/2020 02:24:06 AM - LoginPage - INFO: Element not found with locator: Sign out and  locatorType: link
+10/24/2020 02:24:06 AM - LoginPage - INFO: Cannot click on the element with locator: Sign out locatorType: link
+10/24/2020 02:24:06 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 02:24:08 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 02:24:08 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 02:24:08 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 02:24:08 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 02:24:08 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 02:24:08 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 02:24:10 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 02:24:10 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+10/24/2020 02:24:10 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+10/24/2020 02:24:13 AM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+10/24/2020 02:24:13 AM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+10/24/2020 02:24:16 AM - LoginPage - INFO: Element not found with locator: Sign out and  locatorType: link
+10/24/2020 02:24:16 AM - LoginPage - INFO: Cannot click on the element with locator: Sign out locatorType: link
+10/24/2020 02:24:16 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 02:24:18 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 02:24:18 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 02:24:18 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 02:24:18 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 02:24:19 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 02:24:19 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 02:24:20 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 02:24:20 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+10/24/2020 02:24:20 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+10/24/2020 03:06:31 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 03:06:33 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 03:06:34 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 03:06:34 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 03:06:34 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 03:06:34 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 03:06:34 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 03:06:37 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 03:06:37 AM - LoginPage - INFO: Element found with locator: //h1[contains(text(),'My account')] and  locatorType: xpath
+10/24/2020 03:06:37 AM - LoginPage - INFO: Element present with locator: //h1[contains(text(),'My account')] locatorType: xpath
+10/24/2020 03:06:37 AM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+10/24/2020 03:06:37 AM - TrackStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+10/24/2020 03:06:40 AM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+10/24/2020 03:06:40 AM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+10/24/2020 03:06:40 AM - LoginPage - INFO: Element found with locator: Sign out and  locatorType: link
+10/24/2020 03:06:43 AM - LoginPage - INFO: Clicked on element with locator: Sign out locatorType: link
+10/24/2020 03:06:43 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 03:06:46 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 03:06:46 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 03:06:46 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 03:06:46 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 03:06:46 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 03:06:46 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 03:06:48 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 03:06:48 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+10/24/2020 03:06:48 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+10/24/2020 03:06:51 AM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+10/24/2020 03:06:51 AM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+10/24/2020 03:06:54 AM - LoginPage - INFO: Element not found with locator: Sign out and  locatorType: link
+10/24/2020 03:06:54 AM - LoginPage - INFO: Cannot click on the element with locator: Sign out locatorType: link
+10/24/2020 03:06:54 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 03:06:56 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 03:06:56 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 03:06:56 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 03:06:56 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 03:06:56 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 03:06:56 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 03:06:57 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 03:06:57 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+10/24/2020 03:06:57 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+10/24/2020 03:07:00 AM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+10/24/2020 03:07:00 AM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+10/24/2020 03:07:03 AM - LoginPage - INFO: Element not found with locator: Sign out and  locatorType: link
+10/24/2020 03:07:03 AM - LoginPage - INFO: Cannot click on the element with locator: Sign out locatorType: link
+10/24/2020 03:07:03 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 03:07:05 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 03:07:05 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 03:07:06 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 03:07:06 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 03:07:06 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 03:07:06 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 03:07:07 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 03:07:07 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+10/24/2020 03:07:07 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+10/24/2020 03:13:06 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 03:13:08 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 03:13:08 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 03:13:09 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 03:13:09 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 03:13:09 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 03:13:09 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 03:13:11 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 03:13:11 AM - LoginPage - INFO: Element found with locator: //h1[contains(text(),'My account')] and  locatorType: xpath
+10/24/2020 03:13:11 AM - LoginPage - INFO: Element present with locator: //h1[contains(text(),'My account')] locatorType: xpath
+10/24/2020 03:13:11 AM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+10/24/2020 03:13:11 AM - TrackStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+10/24/2020 03:13:14 AM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+10/24/2020 03:13:14 AM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+10/24/2020 03:13:14 AM - LoginPage - INFO: Element found with locator: Sign out and  locatorType: link
+10/24/2020 03:13:17 AM - LoginPage - INFO: Clicked on element with locator: Sign out locatorType: link
+10/24/2020 03:13:17 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 03:13:20 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 03:13:20 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 03:13:20 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 03:13:20 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 03:13:21 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 03:13:21 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 03:13:22 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 03:13:22 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+10/24/2020 03:13:22 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+10/24/2020 03:13:25 AM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+10/24/2020 03:13:25 AM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+10/24/2020 03:13:28 AM - LoginPage - INFO: Element not found with locator: Sign out and  locatorType: link
+10/24/2020 03:13:28 AM - LoginPage - INFO: Cannot click on the element with locator: Sign out locatorType: link
+10/24/2020 03:13:28 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 03:13:30 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 03:13:30 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 03:13:30 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 03:13:30 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 03:13:30 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 03:13:30 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 03:13:32 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 03:13:32 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+10/24/2020 03:13:32 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+10/24/2020 03:13:35 AM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+10/24/2020 03:13:35 AM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+10/24/2020 03:13:38 AM - LoginPage - INFO: Element not found with locator: Sign out and  locatorType: link
+10/24/2020 03:13:38 AM - LoginPage - INFO: Cannot click on the element with locator: Sign out locatorType: link
+10/24/2020 03:13:38 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+10/24/2020 03:13:40 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+10/24/2020 03:13:40 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+10/24/2020 03:13:41 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+10/24/2020 03:13:41 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+10/24/2020 03:13:41 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+10/24/2020 03:13:41 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+10/24/2020 03:13:42 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+10/24/2020 03:13:42 AM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+10/24/2020 03:13:42 AM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
