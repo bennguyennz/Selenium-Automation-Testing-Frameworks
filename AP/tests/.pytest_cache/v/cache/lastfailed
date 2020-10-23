@@ -1,0 +1,6 @@
+{
+  "courses/register_courses_test.py::RegisterCoursesCSVDataTests::test_invalidEnrollment_1___JavaScript_for_beginners_____10_____1220_____10__": true,
+  "courses/register_courses_test.py::RegisterCoursesCSVDataTests::test_invalidEnrollment_2___Learn_Python_3_from_scratch_____20_____1220_____20__": true,
+  "home/login_test.py::LoginTests::test_invalidLogin": true,
+  "home/login_test.py::LoginTests::test_validLogin": true
+}

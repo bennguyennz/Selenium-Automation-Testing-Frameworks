@@ -9,6 +9,7 @@ Example:
     wdf.getWebDriverInstance()
 """
 import traceback
+
 from selenium import webdriver
 
 class WebDriverFactory():

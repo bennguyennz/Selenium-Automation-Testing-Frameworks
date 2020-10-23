@@ -12,19 +12,15 @@ class LoginTests(unittest.TestCase):
         self.lp = LoginPage(self.driver)
         self.ts = TrackStatus(self.driver)
 
-
     @pytest.mark.run(order=2)
     def test_validLogin(self):
-        self.lp.login("nguyenbinhit@yahoo.com", "1234576")
+        self.lp.login("nguyenbinhit@123.com", "1234576")
         # result1 = self.lp.verifyLoginTitle()
         # self.ts.mark(result1, "Title is incorrect")
         result2 = self.lp.verifyLoginSuccessful()
         self.ts.markFinal("test_validLogin", result2, "Login was successful")
 
-
     @pytest.mark.run(order=1)
     def test_invalidLogin(self):
-        self.lp.login("nguyenbinhit@yahoo.com", "1234576abc")
+        self.lp.login("abc@yahoo.com", "fadfsabc")
         result = self.lp.verifyLoginFailed()
-        assert result == True
-

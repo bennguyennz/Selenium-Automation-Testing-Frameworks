@@ -1,0 +1,70 @@
+1603415643205	geckodriver	INFO	Listening on 127.0.0.1:56792
+1603415643345	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/33/yf4t0qks0jl8fgl27h8n9jzw0000gn/T/rust_mozprofileb5ehqS"
+2020-10-23 14:14:13.786 firefox-bin[16741:15300922] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 14:14:13.786 firefox-bin[16741:15300922] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 14:14:13.786 firefox-bin[16741:15300922] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 14:14:13.787 firefox-bin[16741:15300922] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 14:14:13.787 firefox-bin[16741:15300922] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+1603415659136	Marionette	INFO	Listening on port 56805
+1603415659465	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603415662635	Marionette	INFO	Stopped listening on port 56805
+1603421304335	geckodriver	INFO	Listening on 127.0.0.1:50283
+1603421305419	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/33/yf4t0qks0jl8fgl27h8n9jzw0000gn/T/rust_mozprofileEcQWfg"
+2020-10-23 15:48:33.847 firefox-bin[1127:300966] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 15:48:33.847 firefox-bin[1127:300966] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 15:48:33.847 firefox-bin[1127:300966] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 15:48:33.848 firefox-bin[1127:300966] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 15:48:33.848 firefox-bin[1127:300966] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+1603421318655	Marionette	INFO	Listening on port 50299
+1603421318683	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603421371073	Marionette	INFO	Stopped listening on port 50299
+1603421381124	geckodriver	INFO	Listening on 127.0.0.1:50483
+1603421381153	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/33/yf4t0qks0jl8fgl27h8n9jzw0000gn/T/rust_mozprofilewOURFY"
+2020-10-23 15:49:43.883 firefox-bin[1140:303390] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 15:49:43.883 firefox-bin[1140:303390] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 15:49:43.883 firefox-bin[1140:303390] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 15:49:43.884 firefox-bin[1140:303390] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 15:49:43.884 firefox-bin[1140:303390] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+1603421387246	Marionette	INFO	Listening on port 50496
+1603421387332	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603421440243	Marionette	INFO	Stopped listening on port 50496
+1603422461788	geckodriver	INFO	Listening on 127.0.0.1:50611
+1603422462961	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/33/yf4t0qks0jl8fgl27h8n9jzw0000gn/T/rust_mozprofileZxlIOq"
+2020-10-23 16:07:47.392 firefox-bin[1337:403506] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 16:07:47.392 firefox-bin[1337:403506] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 16:07:47.392 firefox-bin[1337:403506] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 16:07:47.392 firefox-bin[1337:403506] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 16:07:47.392 firefox-bin[1337:403506] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+1603422471151	Marionette	INFO	Listening on port 50623
+1603422471175	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603422492418	Marionette	INFO	Stopped listening on port 50623
+1603426562180	geckodriver	INFO	Listening on 127.0.0.1:59987
+1603426562233	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/33/yf4t0qks0jl8fgl27h8n9jzw0000gn/T/rust_mozprofilevoeowm"
+2020-10-23 17:16:05.985 firefox-bin[2393:801668] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 17:16:05.986 firefox-bin[2393:801668] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 17:16:05.986 firefox-bin[2393:801668] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 17:16:05.986 firefox-bin[2393:801668] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 17:16:05.986 firefox-bin[2393:801668] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+1603426569257	Marionette	INFO	Listening on port 59996
+1603426569287	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603426588712	Marionette	INFO	Stopped listening on port 59996
+1603426621182	geckodriver	INFO	Listening on 127.0.0.1:60104
+1603426621201	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/33/yf4t0qks0jl8fgl27h8n9jzw0000gn/T/rust_mozprofileT0vrFk"
+2020-10-23 17:17:03.232 firefox-bin[2412:804914] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 17:17:03.232 firefox-bin[2412:804914] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 17:17:03.232 firefox-bin[2412:804914] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 17:17:03.233 firefox-bin[2412:804914] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 17:17:03.233 firefox-bin[2412:804914] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+1603426626759	Marionette	INFO	Listening on port 60113
+1603426626862	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603426652998	Marionette	INFO	Stopped listening on port 60113
+1603426761813	geckodriver	INFO	Listening on 127.0.0.1:60216
+1603426761846	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/33/yf4t0qks0jl8fgl27h8n9jzw0000gn/T/rust_mozprofileHquRD7"
+2020-10-23 17:19:24.461 firefox-bin[2426:818992] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 17:19:24.462 firefox-bin[2426:818992] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 17:19:24.462 firefox-bin[2426:818992] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 17:19:24.463 firefox-bin[2426:818992] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+2020-10-23 17:19:24.463 firefox-bin[2426:818992] CFPropertyListCreateFromXMLData(): Old-style plist parser: missing semicolon in dictionary on line 3. Parsing will be abandoned. Break on _CFPropertyListMissingSemicolon to debug.
+1603426767825	Marionette	INFO	Listening on port 60225
+1603426767844	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603426773061	Marionette	INFO	Stopped listening on port 60225
