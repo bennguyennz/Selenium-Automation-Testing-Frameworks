@@ -2,6 +2,8 @@ import utilities.custom_logger as cl
 import logging
 from base.base_page import BasePage
 from pages.home.navigation_page import NavigationPage
+from selenium.webdriver.common.by import By
+import time
 
 # Inherit from BasePage class
 class LoginPage(BasePage):
@@ -39,10 +41,17 @@ class LoginPage(BasePage):
         self.elementClick(self._login_button, locatorType="id")
 
     def login(self, email="", password=""):
+
         self.clickLoginLink()
+        time.sleep(1)
+        nail = self.driver.find_element(By.XPATH, "//h3[contains(text(),'Already registered?')]")
+        self.driver.execute_script("arguments[0].scrollIntoView(true);", nail)
         self.enterEmail(email)
+        time.sleep(1)
         self.enterPassword(password)
+        time.sleep(1)
         self.clickLoginButton()
+        time.sleep(1)
 
     def verifyLoginSuccessful(self):
         result = self.isElementPresent("//h1[contains(text(),'My account')]",

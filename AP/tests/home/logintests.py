@@ -6,8 +6,8 @@ from ddt import ddt, data, unpack
 from utilities.read_data import getCSVData
 
 # Use oneTimeSetUp and setUp from conftest
-@pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 @ddt
+@pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 class LoginTests(unittest.TestCase):
 
     # classSetup creates the Login Page object.  This method is different than the conftest setUp method

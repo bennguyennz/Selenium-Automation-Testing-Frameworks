@@ -8,6 +8,7 @@ Example:
     wdf = WebDriverFactory(browser)
     wdf.getWebDriverInstance()
 """
+
 import traceback
 import os
 from selenium import webdriver
@@ -50,13 +51,19 @@ class WebDriverFactory():
             chromedriver = "/Users/phuongvth/Documents/workspace_python/chromedriver.exe"
             os.environ["webdriver.chrome.driver"] = chromedriver
             driver = webdriver.Chrome(chromedriver)
-            driver.set_window_size(1280,800)
+
         else:
             driver = webdriver.Chrome()
         # Setting Driver Implicit Time out for An Element
-        driver.implicitly_wait(3)
+        driver.implicitly_wait(2)
         # Maximize the window
         driver.maximize_window()
+
+        #Zoom in/out browser
+        #driver.execute_script("document.body.style.zoom='80%'")
+
+        #Set driver windows size
+        driver.set_window_size(1280, 800)
         # Loading browser with App URL
         driver.get(baseURL)
         return driver
