@@ -40,7 +40,8 @@ class WebDriverFactory():
         Returns:
             'WebDriver Instance'
         """
-        baseURL = "http://automationpractice.com"
+        baseURL = "http://automationpractice.com/index.php"
+        #baseURL = "https://letskodeit.teachable.com"
         if self.browser == "iexplorer":
             # Set ie driver
             driver = webdriver.Ie()
@@ -48,7 +49,7 @@ class WebDriverFactory():
             driver = webdriver.Firefox()
         elif self.browser == "chrome":
             # Set chrome driver
-            chromedriver = "/Users/phuongvth/Documents/workspace_python/chromedriver.exe"
+            chromedriver = "/Users/phuongvth/Documents/workspace_python/libs/chromedriver.exe"
             os.environ["webdriver.chrome.driver"] = chromedriver
             driver = webdriver.Chrome(chromedriver)
 

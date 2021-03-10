@@ -1,3 +1,7 @@
-courseName,	ccNum,	ccExp,	ccCVV
-JavaScript for beginners, 10, 1220, 10
-Learn Python 3 from scratch, 20, 1220, 20
+email,password
+invalid@email.com,1234576
+nguyenbinhit@gmail.com,invalidpassword
+invalid@email.com,invalidpassword
+,1234576
+nguyenbinhit@gmail.com,
+,

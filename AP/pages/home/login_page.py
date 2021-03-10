@@ -70,7 +70,7 @@ class LoginPage(BasePage):
         passwordField.clear()
 
     def verifyLoginTitle(self):
-        return self.verifyPageTitle("Kode")
+        return self.verifyPageTitle("Google")
 
     def logout(self):
         self.nav.navigateToUserSettings()

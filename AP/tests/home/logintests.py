@@ -18,14 +18,14 @@ class LoginTests(unittest.TestCase):
 
     @pytest.mark.run(order=1)
     def test_validLogin(self):
-        self.lp.login("nguyenbinhit@yahoo.com", "1234576")
+        self.lp.login("nguyenbinhit@gmail.com", "1234576") #test@email.com, abcabc
         #result1 = self.lp.verifyLoginTitle()
         #self.ts.mark(result1, "Title Verified")
         result2 = self.lp.verifyLoginSuccessful()
-        self.ts.markFinal("test_validLogin", result2, "Login was successful")
+        self.ts.markFinal("test_validLogin", result2, "Login was unsuccessful")
 
     @pytest.mark.run(order=2)
-    @data(*getCSVData("/Users/phuongvth/Documents/GitHub/AutomationTest-DDF/AP/testdata2.csv"))
+    @data(*getCSVData("/Users/phuongvth/Documents/GitHub/AutomationTest-DDF/AP/testdata.csv"))
     @unpack
     def test_invalidLogin(self, email, password):
         self.lp.logout()
