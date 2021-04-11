@@ -1,6 +1,8 @@
 import utilities.custom_logger as cl
 import logging
 from base.base_page import BasePage
+from selenium.webdriver.support.select import Select
+from selenium.webdriver.common.by import By
 
 class CheckoutItemPage(BasePage):
 
@@ -17,9 +19,9 @@ class CheckoutItemPage(BasePage):
     # {0} is a placeholder and the actual value that will be used is passed in by .format()
     _search_box_button = "submit_search"
     _item_name = "//a[@title='{0}'][normalize-space()='{0}']"
-
-    _choose_size = ""
-    _choose_color = ""
+    _dropdown_list ="group_1"
+    _size = "0"
+    _choose_color = "//a[@name='{0}']"
     _add_to_cart_button = "//span[contains(text(),'Add to cart')]"
     _proceed_to_checkout_button = "//span[normalize-space()='Proceed to checkout']"
     _proceed_to_checkout_summary = "div#center_column  a[title='Proceed to checkout'] > span"
@@ -42,8 +44,10 @@ class CheckoutItemPage(BasePage):
     def selectItem(self, ItemName):
         self.elementClick(locator=self._item_name.format(ItemName),locatorType="xpath")
 
-    def clickOnAddtoCart(self):
-
+    def clickOnAddtoCart(self,_size="",_color=""):
+        dropdownlist = Select(self.getElement(locator=self._dropdown_list))
+        dropdownlist.select_by_visible_text(format(_size))
+        self.elementClick(locator=self._choose_color.format(_color),locatorType="xpath")
         self.elementClick(locator=self._add_to_cart_button,locatorType="xpath")
 
     def clickProceedtoCheckout(self):

@@ -26,6 +26,8 @@ class LoginPage(BasePage):
     _email_field = "email"
     _password_field = "passwd"
     _login_button = "SubmitLogin"
+    _successful_validation="//p[@class='info-account']"
+    _unsuccessful_validation="//p[contains(text(),'There is 1 error')]"
 
     # The custom elementClick and sendKeys methods locate the element then perform the action on the element
     # sendKeys is the custom method, not send_keys
@@ -45,8 +47,8 @@ class LoginPage(BasePage):
 
         self.clickLoginLink()
         time.sleep(0.5)
-        nail = self.driver.find_element(By.XPATH, "//h3[contains(text(),'Already registered?')]")
-        self.driver.execute_script("arguments[0].scrollIntoView(true);", nail)
+        # nail = self.driver.find_element(By.XPATH, "//h3[contains(text(),'Already registered?')]")
+        # self.driver.execute_script("arguments[0].scrollIntoView(true);", nail)
         self.enterEmail(email)
         time.sleep(0.5)
         self.enterPassword(password)
@@ -55,12 +57,12 @@ class LoginPage(BasePage):
         time.sleep(0.5)
 
     def verifyLoginSuccessful(self):
-        result = self.isElementPresent("//h1[contains(text(),'My account')]",
+        result = self.isElementPresent(locator=self._successful_validation,
                                        locatorType="xpath")
         return result
 
     def verifyLoginFailed(self):
-        result = self.isElementPresent("//p[contains(text(),'There is 1 error')]",
+        result = self.isElementPresent(locator=self._unsuccessful_validation,
                                        locatorType="xpath")
         return result
 

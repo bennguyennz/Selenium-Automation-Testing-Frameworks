@@ -2,11 +2,13 @@ from pages.items.checkout_item_page import CheckoutItemPage
 from pages.home.navigation_page import NavigationPage
 from utilities.trackstatus import TrackStatus
 import unittest, pytest
-
+from ddt import ddt, data, unpack
+from utilities.read_data import getCSVData
 import time
 
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
+@ddt
 class CheckOutItemTests(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
@@ -19,13 +21,15 @@ class CheckOutItemTests(unittest.TestCase):
     # * is to unpack if tuples, lists etc are used in data
     # getCSVData was mentioned in import statement above so @data recognizes it
     # Use full path + filename
-    def test_checkoutItem(self):
-        self.items.enterItemName("Dress")
+    @data(*getCSVData("/Users/phuongvth/Documents/GitHub/AutomationTest-DDF/AP/testdata2.csv"))
+    @unpack
+    def test_checkoutItem(self,search_keyword,item_name,size,color):
+        self.items.enterItemName(search_keyword)
         time.sleep(0.5)
-        self.items.selectItem("Blouse")
+        self.items.selectItem(item_name)
         time.sleep(0.5)
-        self.items.clickOnAddtoCart()
-        time.sleep(0.5)
+        self.items.clickOnAddtoCart(size,color)
+        time.sleep(2)
         self.items.clickProceedtoCheckout()
         time.sleep(0.5)
         self.items.clickProceedtoCheckout_Sumary()
@@ -42,7 +46,7 @@ class CheckOutItemTests(unittest.TestCase):
         time.sleep(3)
         self.ts.markFinal("test_checkoutItem", result,
                           "Checkout Successful Verification")
-
+######################
         # ALTERNATE WAY TO GO BACK USING JS:py.
         # self.driver.execute_script("window.history.go(-1)")
         self.driver.back()
