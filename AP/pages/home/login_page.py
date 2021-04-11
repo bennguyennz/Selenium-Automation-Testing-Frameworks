@@ -2,7 +2,6 @@ import utilities.custom_logger as cl
 import logging
 from base.base_page import BasePage
 from pages.home.navigation_page import NavigationPage
-from selenium.webdriver.common.by import By
 import time
 
 
@@ -47,8 +46,7 @@ class LoginPage(BasePage):
 
         self.clickLoginLink()
         time.sleep(0.5)
-        # nail = self.driver.find_element(By.XPATH, "//h3[contains(text(),'Already registered?')]")
-        # self.driver.execute_script("arguments[0].scrollIntoView(true);", nail)
+        self.webScroll("down")
         self.enterEmail(email)
         time.sleep(0.5)
         self.enterPassword(password)

@@ -2,7 +2,6 @@ import utilities.custom_logger as cl
 import logging
 from base.base_page import BasePage
 from selenium.webdriver.support.select import Select
-from selenium.webdriver.common.by import By
 
 class CheckoutItemPage(BasePage):
 
@@ -42,6 +41,7 @@ class CheckoutItemPage(BasePage):
         self.elementClick(locator=self._search_box_button,locatorType="name")
 
     def selectItem(self, ItemName):
+        self.webScroll("down")
         self.elementClick(locator=self._item_name.format(ItemName),locatorType="xpath")
 
     def clickOnAddtoCart(self,_size="",_color=""):
@@ -70,5 +70,6 @@ class CheckoutItemPage(BasePage):
         self.elementClick(locator=self._confirm_button,locatorType="css")
 
     def verifyCompleteCheckout(self):
+        self.webScroll()
         result = self.isElementPresent(locator=self._validation_success, locatorType="xpath")
         return result

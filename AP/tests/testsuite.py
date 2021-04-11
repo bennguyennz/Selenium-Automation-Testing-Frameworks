@@ -7,5 +7,5 @@ tc1 = unittest.TestLoader().loadTestsFromTestCase(LoginTests)
 tc2 = unittest.TestLoader().loadTestsFromTestCase(CheckOutItemTests)
 
 # Create a test suite combining all test classes
-smokeTest = unittest.TestSuite([tc1],[tc2])
+smokeTest = unittest.TestSuite([tc1,tc2])
 unittest.TextTestRunner(verbosity=2).run(smokeTest)

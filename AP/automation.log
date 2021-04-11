@@ -7288,3 +7288,1182 @@
 04/11/2021 05:05:31 PM - TrackStatus - ERROR: ### VERIFICATION FAILED :: + Login was successful
 04/11/2021 05:05:31 PM - TrackStatus - ERROR: ### Exception Occurred when taking screenshot
 04/11/2021 05:05:31 PM - TrackStatus - ERROR: test_validLogin ### TEST FAILED
+04/11/2021 05:10:16 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:10:19 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:10:19 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:10:19 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:10:20 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:10:20 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:10:20 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:10:22 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:10:25 PM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+04/11/2021 05:10:25 PM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+04/11/2021 05:10:25 PM - LoginPage - INFO: Element found with locator: Sign out and  locatorType: link
+04/11/2021 05:10:30 PM - LoginPage - INFO: Clicked on element with locator: Sign out locatorType: link
+04/11/2021 05:10:30 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:10:32 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:10:32 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:10:33 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:10:33 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:10:33 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:10:34 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:10:35 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:10:36 PM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+04/11/2021 05:10:36 PM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+04/11/2021 05:10:47 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:10:49 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:10:50 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:10:50 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:10:51 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:10:51 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:10:51 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:10:53 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:10:54 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:10:54 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:10:54 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:10:56 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:10:57 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:10:59 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:11:00 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:11:00 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Black'] and  locatorType: xpath
+04/11/2021 05:11:00 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Black'] locatorType: xpath
+04/11/2021 05:11:00 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:11:00 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:11:02 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:11:05 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:11:06 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:11:08 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:11:09 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:11:10 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:11:11 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:11:11 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:11:11 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:11:12 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:11:13 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:11:16 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:11:17 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:11:20 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:11:21 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:11:21 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:11:24 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:11:24 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:11:24 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:11:24 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:11:24 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:11:28 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:11:28 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:11:33 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:11:33 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:11:33 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='White'] and  locatorType: xpath
+04/11/2021 05:11:33 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='White'] locatorType: xpath
+04/11/2021 05:11:33 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:11:34 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:11:36 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:11:51 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:11:51 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:11:54 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:11:54 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:11:57 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:11:57 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:11:57 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:11:57 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:12:01 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:12:01 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:12:04 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:12:04 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:12:08 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:12:09 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:12:09 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:12:12 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:12:12 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:12:12 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:12:13 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:12:13 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:12:16 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:12:16 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] and  locatorType: xpath
+04/11/2021 05:12:19 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] locatorType: xpath
+04/11/2021 05:12:20 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:12:20 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Blue'] and  locatorType: xpath
+04/11/2021 05:12:20 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Blue'] locatorType: xpath
+04/11/2021 05:12:20 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:12:20 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:12:22 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:12:25 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:12:26 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:12:27 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:12:28 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:12:30 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:12:31 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:12:31 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:12:31 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:12:32 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:12:33 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:12:35 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:12:35 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:12:38 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:12:39 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:12:39 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:12:42 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:12:42 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:12:53 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:12:55 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:12:55 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:12:56 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:12:56 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:12:56 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:12:57 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:13:01 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:13:03 PM - LoginPage - INFO: Element not found with locator: Sign in and  locatorType: link
+04/11/2021 05:13:03 PM - LoginPage - INFO: Cannot click on the element with locator: Sign in locatorType: link
+04/11/2021 05:13:06 PM - LoginPage - INFO: Element not found with locator: email and  locatorType: id
+04/11/2021 05:13:06 PM - LoginPage - INFO: Cannot send data on the element with locator: email locatorType: id
+04/11/2021 05:13:08 PM - LoginPage - INFO: Element not found with locator: passwd and  locatorType: id
+04/11/2021 05:13:08 PM - LoginPage - INFO: Cannot send data on the element with locator: passwd locatorType: id
+04/11/2021 05:13:11 PM - LoginPage - INFO: Element not found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:13:11 PM - LoginPage - INFO: Cannot click on the element with locator: SubmitLogin locatorType: id
+04/11/2021 05:13:11 PM - LoginPage - INFO: Element found with locator: //p[@class='info-account'] and  locatorType: xpath
+04/11/2021 05:13:11 PM - LoginPage - INFO: Element present with locator: //p[@class='info-account'] locatorType: xpath
+04/11/2021 05:13:11 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+04/11/2021 05:13:11 PM - TrackStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+04/11/2021 05:24:57 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:24:59 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:25:00 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:25:00 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:25:00 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:25:00 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:25:01 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:25:04 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:25:07 PM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+04/11/2021 05:25:07 PM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+04/11/2021 05:25:07 PM - LoginPage - INFO: Element found with locator: Sign out and  locatorType: link
+04/11/2021 05:25:11 PM - LoginPage - INFO: Clicked on element with locator: Sign out locatorType: link
+04/11/2021 05:25:11 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:25:13 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:25:13 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:25:13 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:25:14 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:25:14 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:25:15 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:25:16 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:25:16 PM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+04/11/2021 05:25:16 PM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+04/11/2021 05:25:25 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:25:26 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:25:27 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:25:27 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:25:28 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:25:28 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:25:28 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:25:31 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:25:32 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:25:32 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:25:32 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:25:34 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:25:35 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:25:37 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:25:38 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:25:38 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Black'] and  locatorType: xpath
+04/11/2021 05:25:38 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Black'] locatorType: xpath
+04/11/2021 05:25:38 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:25:38 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:25:40 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:25:42 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:25:43 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:25:44 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:25:45 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:25:46 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:25:47 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:25:47 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:25:47 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:25:48 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:25:49 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:25:50 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:25:51 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:25:53 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:25:54 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:25:54 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:25:57 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:25:57 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:25:57 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:25:57 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:25:57 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:26:00 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:26:00 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:26:02 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:26:02 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:26:02 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='White'] and  locatorType: xpath
+04/11/2021 05:26:03 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='White'] locatorType: xpath
+04/11/2021 05:26:03 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:26:03 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:26:05 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:26:07 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:26:08 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:26:09 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:26:10 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:26:11 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:26:11 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:26:12 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:26:12 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:26:13 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:26:14 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:26:15 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:26:15 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:26:18 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:26:19 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:26:19 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:26:22 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:26:22 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:26:23 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:26:23 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:26:23 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:26:25 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:26:25 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] and  locatorType: xpath
+04/11/2021 05:26:28 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] locatorType: xpath
+04/11/2021 05:26:28 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:26:28 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Blue'] and  locatorType: xpath
+04/11/2021 05:26:28 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Blue'] locatorType: xpath
+04/11/2021 05:26:28 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:26:29 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:26:31 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:26:41 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:26:42 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:26:43 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:26:44 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:26:45 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:26:45 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:26:45 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:26:46 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:26:47 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:26:47 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:26:49 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:26:49 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:26:52 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:26:53 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:26:53 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:26:56 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:26:56 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:27:06 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:27:09 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:27:09 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:27:09 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:27:10 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:27:10 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:27:10 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:27:13 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:27:15 PM - LoginPage - INFO: Element not found with locator: Sign in and  locatorType: link
+04/11/2021 05:27:15 PM - LoginPage - INFO: Cannot click on the element with locator: Sign in locatorType: link
+04/11/2021 05:27:18 PM - LoginPage - INFO: Element not found with locator: email and  locatorType: id
+04/11/2021 05:27:18 PM - LoginPage - INFO: Cannot send data on the element with locator: email locatorType: id
+04/11/2021 05:27:20 PM - LoginPage - INFO: Element not found with locator: passwd and  locatorType: id
+04/11/2021 05:27:20 PM - LoginPage - INFO: Cannot send data on the element with locator: passwd locatorType: id
+04/11/2021 05:27:23 PM - LoginPage - INFO: Element not found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:27:23 PM - LoginPage - INFO: Cannot click on the element with locator: SubmitLogin locatorType: id
+04/11/2021 05:27:24 PM - LoginPage - INFO: Element found with locator: //p[@class='info-account'] and  locatorType: xpath
+04/11/2021 05:27:24 PM - LoginPage - INFO: Element present with locator: //p[@class='info-account'] locatorType: xpath
+04/11/2021 05:27:24 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+04/11/2021 05:27:24 PM - TrackStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+04/11/2021 05:28:26 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:28:29 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:28:29 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:28:30 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:28:30 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:28:30 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:28:31 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:28:34 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:28:36 PM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+04/11/2021 05:28:36 PM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+04/11/2021 05:28:36 PM - LoginPage - INFO: Element found with locator: Sign out and  locatorType: link
+04/11/2021 05:28:42 PM - LoginPage - INFO: Clicked on element with locator: Sign out locatorType: link
+04/11/2021 05:28:42 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:28:44 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:28:44 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:28:44 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:28:45 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:28:45 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:28:45 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:28:47 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:28:47 PM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+04/11/2021 05:28:47 PM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+04/11/2021 05:28:57 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:29:00 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:29:00 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:29:00 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:29:01 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:29:01 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:29:01 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:29:03 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:29:04 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:29:04 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:29:04 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:29:06 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:29:07 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:29:10 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:29:10 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:29:11 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Black'] and  locatorType: xpath
+04/11/2021 05:29:11 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Black'] locatorType: xpath
+04/11/2021 05:29:11 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:29:11 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:29:13 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:29:15 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:29:16 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:29:22 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:29:23 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:29:24 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:29:25 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:29:25 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:29:25 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:29:26 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:29:27 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:29:29 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:29:29 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:29:31 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:29:32 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:29:32 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:29:35 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:29:35 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:29:36 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:29:36 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:29:36 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:29:39 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:29:39 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:29:41 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:29:41 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:29:42 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='White'] and  locatorType: xpath
+04/11/2021 05:29:42 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='White'] locatorType: xpath
+04/11/2021 05:29:42 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:29:42 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:29:44 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:29:46 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:29:46 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:29:48 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:29:48 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:29:49 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:29:50 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:29:50 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:29:50 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:29:52 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:29:52 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:29:53 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:29:54 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:29:57 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:29:58 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:29:58 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:30:01 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:30:01 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:30:02 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:30:02 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:30:02 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:30:05 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:30:06 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] and  locatorType: xpath
+04/11/2021 05:30:09 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] locatorType: xpath
+04/11/2021 05:30:09 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:30:09 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Blue'] and  locatorType: xpath
+04/11/2021 05:30:09 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Blue'] locatorType: xpath
+04/11/2021 05:30:09 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:30:09 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:30:11 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:30:13 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:30:14 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:30:16 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:30:16 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:30:18 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:30:18 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:30:18 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:30:18 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:30:19 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:30:20 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:30:21 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:30:22 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:30:24 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:30:25 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:30:25 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:30:28 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:30:28 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:30:38 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:30:40 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:30:41 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:30:41 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:30:42 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:30:42 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:30:42 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:30:44 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:30:47 PM - LoginPage - INFO: Element not found with locator: Sign in and  locatorType: link
+04/11/2021 05:30:47 PM - LoginPage - INFO: Cannot click on the element with locator: Sign in locatorType: link
+04/11/2021 05:34:07 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:34:09 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:34:09 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:34:10 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:34:10 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:34:10 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:34:11 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:34:12 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:34:15 PM - NavigationPage - INFO: Element not found with locator: //*[@class='gravatar'] and  locatorType: xpath
+04/11/2021 05:34:15 PM - NavigationPage - INFO: Cannot click on the element with locator: //*[@class='gravatar'] locatorType: xpath
+04/11/2021 05:34:15 PM - LoginPage - INFO: Element found with locator: Sign out and  locatorType: link
+04/11/2021 05:34:38 PM - LoginPage - INFO: Clicked on element with locator: Sign out locatorType: link
+04/11/2021 05:34:38 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:34:40 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:34:40 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:34:41 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:34:41 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:34:41 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:34:42 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:34:43 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:34:43 PM - LoginPage - INFO: Element found with locator: //p[contains(text(),'There is 1 error')] and  locatorType: xpath
+04/11/2021 05:34:43 PM - LoginPage - INFO: Element present with locator: //p[contains(text(),'There is 1 error')] locatorType: xpath
+04/11/2021 05:34:54 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:34:56 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:34:56 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:34:56 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:34:57 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:34:57 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:34:58 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:35:00 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:35:01 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:35:01 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:35:01 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:35:03 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:35:04 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:35:06 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:35:07 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:35:07 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Black'] and  locatorType: xpath
+04/11/2021 05:35:07 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Black'] locatorType: xpath
+04/11/2021 05:35:07 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:35:07 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:35:09 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:35:12 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:35:13 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:35:14 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:35:15 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:35:16 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:35:17 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:35:17 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:35:17 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:35:18 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:35:19 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:35:20 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:35:20 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:35:24 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:35:25 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:35:25 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:35:28 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:35:28 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:35:28 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:35:28 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:35:28 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:35:30 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:35:30 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:35:32 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:35:32 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:35:33 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='White'] and  locatorType: xpath
+04/11/2021 05:35:33 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='White'] locatorType: xpath
+04/11/2021 05:35:33 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:35:33 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:35:35 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:35:37 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:35:37 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:35:39 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:35:39 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:35:40 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:35:41 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:35:41 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:35:41 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:35:42 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:35:43 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:35:44 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:35:45 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:35:48 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:35:49 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:35:49 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:35:52 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:35:52 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:35:52 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:35:53 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:35:53 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:35:54 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:35:55 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] and  locatorType: xpath
+04/11/2021 05:35:57 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] locatorType: xpath
+04/11/2021 05:35:58 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:35:58 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Blue'] and  locatorType: xpath
+04/11/2021 05:35:58 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Blue'] locatorType: xpath
+04/11/2021 05:35:58 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:35:58 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:36:00 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:36:02 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:36:03 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:36:05 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:36:05 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:36:07 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:36:07 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:36:07 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:36:07 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:36:09 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:36:10 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:36:11 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:36:12 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:36:18 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:36:19 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:36:19 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:36:22 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:36:22 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:36:34 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:36:38 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:36:38 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:36:39 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:36:39 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:36:39 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:36:40 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:36:42 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:36:44 PM - LoginPage - INFO: Element not found with locator: Sign in and  locatorType: link
+04/11/2021 05:36:44 PM - LoginPage - INFO: Cannot click on the element with locator: Sign in locatorType: link
+04/11/2021 05:36:47 PM - LoginPage - INFO: Element not found with locator: email and  locatorType: id
+04/11/2021 05:36:47 PM - LoginPage - INFO: Cannot send data on the element with locator: email locatorType: id
+04/11/2021 05:36:49 PM - LoginPage - INFO: Element not found with locator: passwd and  locatorType: id
+04/11/2021 05:36:49 PM - LoginPage - INFO: Cannot send data on the element with locator: passwd locatorType: id
+04/11/2021 05:36:52 PM - LoginPage - INFO: Element not found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:36:52 PM - LoginPage - INFO: Cannot click on the element with locator: SubmitLogin locatorType: id
+04/11/2021 05:36:52 PM - LoginPage - INFO: Element found with locator: //p[@class='info-account'] and  locatorType: xpath
+04/11/2021 05:36:52 PM - LoginPage - INFO: Element present with locator: //p[@class='info-account'] locatorType: xpath
+04/11/2021 05:36:52 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was successful
+04/11/2021 05:36:52 PM - TrackStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+04/11/2021 05:49:20 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:49:22 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:49:23 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:49:23 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:49:24 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:49:24 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:49:24 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:49:27 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:49:28 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:49:28 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:49:28 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:49:31 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:49:31 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:49:36 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:49:36 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:49:36 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Black'] and  locatorType: xpath
+04/11/2021 05:49:36 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Black'] locatorType: xpath
+04/11/2021 05:49:36 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:49:37 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:49:39 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:49:42 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:49:42 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:49:44 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:49:45 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:49:46 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:49:47 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:49:47 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:49:47 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:49:49 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:49:49 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:49:51 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:49:51 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:49:54 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:49:55 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:49:55 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:49:58 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:49:58 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:49:58 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:49:58 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:49:58 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:50:01 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:50:02 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:50:04 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:50:05 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:50:05 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='White'] and  locatorType: xpath
+04/11/2021 05:50:05 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='White'] locatorType: xpath
+04/11/2021 05:50:05 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:50:05 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:50:07 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:50:09 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:50:10 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:50:11 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:50:12 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:50:13 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:50:13 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:50:13 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:50:13 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:50:15 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:50:15 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:50:16 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:50:17 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:50:19 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:50:20 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:50:20 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:50:23 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:50:23 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:50:23 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:50:24 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:50:24 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:50:26 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:50:27 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] and  locatorType: xpath
+04/11/2021 05:50:31 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] locatorType: xpath
+04/11/2021 05:50:31 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:50:31 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Blue'] and  locatorType: xpath
+04/11/2021 05:50:31 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Blue'] locatorType: xpath
+04/11/2021 05:50:31 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:50:32 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:50:34 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:50:35 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:50:36 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:50:37 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:50:38 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:50:39 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:50:40 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:50:40 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:50:40 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:50:41 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:50:41 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:50:43 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:50:43 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:50:45 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:50:46 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:50:46 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:50:49 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:50:49 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:51:52 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:51:54 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:51:55 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:51:55 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:51:56 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:51:56 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:51:56 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:51:59 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:52:00 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:52:00 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:52:00 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:52:03 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:52:03 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:52:06 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:52:06 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:52:06 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Black'] and  locatorType: xpath
+04/11/2021 05:52:06 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Black'] locatorType: xpath
+04/11/2021 05:52:06 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:52:07 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:52:09 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:52:12 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:52:12 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:52:14 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:52:15 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:52:17 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:52:17 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:52:18 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:52:18 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:52:19 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:52:20 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:52:22 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:52:23 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:52:26 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:52:27 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:52:27 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:52:30 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:52:30 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:52:30 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:52:30 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:52:30 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:52:34 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:52:34 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:52:36 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:52:36 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:52:37 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='White'] and  locatorType: xpath
+04/11/2021 05:52:37 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='White'] locatorType: xpath
+04/11/2021 05:52:37 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:52:37 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:52:39 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:52:41 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:52:41 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:52:43 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:52:44 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:52:45 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:52:46 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:52:46 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:52:46 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:52:47 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:52:48 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:52:49 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:52:49 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:52:51 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:52:52 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:52:52 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:52:55 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:52:55 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:52:56 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:52:56 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:52:56 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:52:59 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:52:59 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] and  locatorType: xpath
+04/11/2021 05:53:03 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] locatorType: xpath
+04/11/2021 05:53:04 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:53:04 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Blue'] and  locatorType: xpath
+04/11/2021 05:53:04 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Blue'] locatorType: xpath
+04/11/2021 05:53:04 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:53:04 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:53:06 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:53:08 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:53:09 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:53:10 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:53:10 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:53:12 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:53:12 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:53:12 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:53:12 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:53:15 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:53:15 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:53:17 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:53:18 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:53:20 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:53:21 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:53:21 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:53:24 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:53:24 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:54:44 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:54:47 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:54:47 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:54:48 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:54:48 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:54:48 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:54:49 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:54:51 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:54:52 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:54:52 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:54:52 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:54:55 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:54:56 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:54:58 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:54:59 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:54:59 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Black'] and  locatorType: xpath
+04/11/2021 05:54:59 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Black'] locatorType: xpath
+04/11/2021 05:54:59 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:54:59 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:55:01 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:55:04 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:55:04 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:55:06 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:55:06 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:55:09 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:55:10 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:55:10 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:55:10 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:55:12 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:55:12 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:55:13 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:55:14 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:55:17 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:55:18 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:55:18 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:55:21 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:55:21 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:55:21 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:55:21 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:55:21 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:55:24 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:55:25 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:55:26 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:55:27 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:55:27 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='White'] and  locatorType: xpath
+04/11/2021 05:55:27 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='White'] locatorType: xpath
+04/11/2021 05:55:27 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:55:27 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:55:29 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:55:31 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:55:31 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:55:33 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:55:34 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:55:36 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:55:36 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:55:37 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:55:37 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:55:38 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:55:39 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:55:40 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:55:41 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:55:43 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:55:44 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:55:44 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:55:47 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:55:47 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:55:47 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:55:47 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:55:47 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:55:50 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:55:50 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] and  locatorType: xpath
+04/11/2021 05:55:53 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] locatorType: xpath
+04/11/2021 05:55:54 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:55:54 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Blue'] and  locatorType: xpath
+04/11/2021 05:55:54 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Blue'] locatorType: xpath
+04/11/2021 05:55:54 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:55:55 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:55:57 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:55:59 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:55:59 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:56:01 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:56:02 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:56:03 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:56:04 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:56:04 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:56:04 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:56:05 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:56:06 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:56:08 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:56:08 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:56:12 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:56:13 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:56:13 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:56:16 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:56:16 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:57:46 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 05:57:48 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 05:57:49 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 05:57:49 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 05:57:50 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 05:57:50 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 05:57:50 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 05:57:53 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 05:57:53 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:57:53 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:57:53 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:57:56 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:57:56 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:57:59 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:57:59 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:58:00 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Black'] and  locatorType: xpath
+04/11/2021 05:58:00 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Black'] locatorType: xpath
+04/11/2021 05:58:00 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:58:00 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:58:02 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:58:05 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:58:05 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:58:07 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:58:07 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:58:09 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:58:09 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:58:10 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:58:10 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:58:11 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:58:11 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:58:13 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:58:13 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:58:16 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:58:17 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:58:17 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:58:20 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:58:20 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:58:21 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:58:21 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:58:21 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:58:23 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:58:23 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 05:58:25 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 05:58:25 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:58:25 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='White'] and  locatorType: xpath
+04/11/2021 05:58:26 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='White'] locatorType: xpath
+04/11/2021 05:58:26 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:58:26 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:58:28 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:58:30 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:58:30 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:58:32 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:58:32 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:58:33 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:58:34 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:58:34 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:58:34 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:58:36 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:58:36 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:58:38 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:58:38 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:58:40 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:58:41 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:58:41 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:58:44 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:58:44 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 05:58:44 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 05:58:45 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 05:58:45 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 05:58:48 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 05:58:48 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] and  locatorType: xpath
+04/11/2021 05:58:50 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] locatorType: xpath
+04/11/2021 05:58:51 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 05:58:51 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Blue'] and  locatorType: xpath
+04/11/2021 05:58:51 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Blue'] locatorType: xpath
+04/11/2021 05:58:51 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 05:58:51 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 05:58:53 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 05:58:55 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 05:58:55 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 05:58:57 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 05:58:58 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 05:58:59 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 05:59:00 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 05:59:00 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 05:59:00 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 05:59:01 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 05:59:02 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 05:59:03 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 05:59:04 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 05:59:07 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 05:59:08 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 05:59:08 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 05:59:11 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 05:59:11 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 06:04:19 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 06:04:22 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 06:04:23 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 06:04:23 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 06:04:24 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 06:04:24 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 06:04:24 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 06:04:26 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 06:04:27 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 06:04:27 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 06:04:27 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 06:04:30 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 06:04:31 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 06:04:33 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 06:04:34 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 06:04:34 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Black'] and  locatorType: xpath
+04/11/2021 06:04:34 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Black'] locatorType: xpath
+04/11/2021 06:04:34 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 06:04:34 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 06:04:36 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 06:04:39 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 06:04:40 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 06:04:41 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 06:04:42 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 06:04:43 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 06:04:44 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 06:04:44 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 06:04:44 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 06:04:45 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 06:04:46 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 06:04:47 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 06:04:48 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 06:04:50 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 06:04:51 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 06:04:51 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 06:04:54 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 06:04:54 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 06:04:54 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 06:04:55 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 06:04:55 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 06:04:55 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 06:04:55 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 06:04:57 PM - CheckoutItemPage - INFO: Cannot click on the element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 06:05:00 PM - CheckoutItemPage - INFO: Element not found with locator: group_1 and  locatorType: id
+04/11/2021 06:05:00 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 06:05:00 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 06:05:00 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 06:05:00 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 06:05:03 PM - CheckoutItemPage - INFO: Element not found with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] and  locatorType: xpath
+04/11/2021 06:05:03 PM - CheckoutItemPage - INFO: Cannot click on the element with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] locatorType: xpath
+04/11/2021 06:05:05 PM - CheckoutItemPage - INFO: Element not found with locator: group_1 and  locatorType: id
+04/11/2021 06:05:49 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 06:05:53 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 06:05:54 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 06:05:54 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 06:05:54 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 06:05:54 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 06:05:55 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 06:05:57 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 06:05:58 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 06:05:58 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 06:05:58 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 06:06:01 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 06:06:01 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 06:06:04 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 06:06:04 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 06:06:04 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Black'] and  locatorType: xpath
+04/11/2021 06:06:05 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Black'] locatorType: xpath
+04/11/2021 06:06:05 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 06:06:05 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 06:06:07 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 06:06:09 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 06:06:10 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 06:06:12 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 06:06:12 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 06:06:14 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 06:06:15 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 06:06:15 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 06:06:15 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 06:06:17 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 06:06:17 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 06:06:19 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 06:06:20 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 06:06:23 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 06:06:24 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 06:06:24 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 06:06:27 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 06:06:27 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 06:06:28 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 06:06:28 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 06:06:28 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 06:06:31 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 06:06:31 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 06:06:33 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 06:06:34 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 06:06:34 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='White'] and  locatorType: xpath
+04/11/2021 06:06:35 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='White'] locatorType: xpath
+04/11/2021 06:06:35 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 06:06:35 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 06:06:37 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 06:06:39 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 06:06:39 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 06:06:41 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 06:06:42 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 06:06:44 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 06:06:44 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 06:06:44 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 06:06:44 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 06:06:45 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 06:06:46 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 06:06:47 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 06:06:48 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 06:06:50 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 06:06:51 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 06:06:51 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 06:06:54 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 06:06:54 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 06:06:54 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 06:06:54 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 06:06:54 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 06:06:57 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 06:06:58 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] and  locatorType: xpath
+04/11/2021 06:07:00 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] locatorType: xpath
+04/11/2021 06:07:01 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 06:07:01 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Blue'] and  locatorType: xpath
+04/11/2021 06:07:01 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Blue'] locatorType: xpath
+04/11/2021 06:07:01 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 06:07:01 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 06:07:03 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 06:07:05 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 06:07:05 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 06:07:07 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 06:07:08 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 06:07:09 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 06:07:09 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 06:07:09 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 06:07:09 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 06:07:11 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 06:07:11 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 06:07:12 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 06:07:13 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 06:07:16 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 06:07:17 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 06:07:17 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 06:07:20 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 06:07:20 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 06:10:36 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 06:10:39 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 06:10:40 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 06:10:40 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 06:10:40 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 06:10:40 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 06:10:41 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 06:10:43 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 06:10:44 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 06:10:44 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 06:10:44 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 06:10:46 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 06:10:47 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 06:10:49 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 06:10:50 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 06:10:50 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Black'] and  locatorType: xpath
+04/11/2021 06:10:50 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Black'] locatorType: xpath
+04/11/2021 06:10:50 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 06:10:50 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 06:10:52 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 06:10:55 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 06:10:55 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 06:10:57 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 06:10:57 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 06:11:00 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 06:11:00 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 06:11:00 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 06:11:00 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 06:11:02 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 06:11:03 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 06:11:05 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 06:11:06 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 06:11:09 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 06:11:10 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 06:11:10 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 06:11:13 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 06:11:13 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 06:11:13 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 06:11:13 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 06:11:13 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 06:11:18 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 06:11:18 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Blouse'][normalize-space()='Blouse'] and  locatorType: xpath
+04/11/2021 06:11:20 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Blouse'][normalize-space()='Blouse'] locatorType: xpath
+04/11/2021 06:11:20 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 06:11:20 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='White'] and  locatorType: xpath
+04/11/2021 06:11:20 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='White'] locatorType: xpath
+04/11/2021 06:11:21 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 06:11:21 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 06:11:23 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 06:11:25 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 06:11:25 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 06:11:27 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 06:11:27 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 06:11:30 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 06:11:30 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 06:11:30 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 06:11:30 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 06:11:33 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 06:11:34 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 06:11:36 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 06:11:37 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 06:11:39 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 06:11:40 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 06:11:40 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 06:11:43 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 06:11:43 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 06:11:44 PM - CheckoutItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/11/2021 06:11:44 PM - CheckoutItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/11/2021 06:11:44 PM - CheckoutItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/11/2021 06:11:47 PM - CheckoutItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/11/2021 06:11:47 PM - CheckoutItemPage - INFO: Element found with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] and  locatorType: xpath
+04/11/2021 06:11:50 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@title='Faded Short Sleeve T-shirts'][normalize-space()='Faded Short Sleeve T-shirts'] locatorType: xpath
+04/11/2021 06:11:50 PM - CheckoutItemPage - INFO: Element found with locator: group_1 and  locatorType: id
+04/11/2021 06:11:51 PM - CheckoutItemPage - INFO: Element found with locator: //a[@name='Blue'] and  locatorType: xpath
+04/11/2021 06:11:51 PM - CheckoutItemPage - INFO: Clicked on element with locator: //a[@name='Blue'] locatorType: xpath
+04/11/2021 06:11:51 PM - CheckoutItemPage - INFO: Element found with locator: //span[contains(text(),'Add to cart')] and  locatorType: xpath
+04/11/2021 06:11:51 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[contains(text(),'Add to cart')] locatorType: xpath
+04/11/2021 06:11:53 PM - CheckoutItemPage - INFO: Element found with locator: //span[normalize-space()='Proceed to checkout'] and  locatorType: xpath
+04/11/2021 06:11:55 PM - CheckoutItemPage - INFO: Clicked on element with locator: //span[normalize-space()='Proceed to checkout'] locatorType: xpath
+04/11/2021 06:11:56 PM - CheckoutItemPage - INFO: Element found with locator: div#center_column  a[title='Proceed to checkout'] > span and  locatorType: css
+04/11/2021 06:11:57 PM - CheckoutItemPage - INFO: Clicked on element with locator: div#center_column  a[title='Proceed to checkout'] > span locatorType: css
+04/11/2021 06:11:58 PM - CheckoutItemPage - INFO: Element found with locator: processAddress and  locatorType: name
+04/11/2021 06:12:00 PM - CheckoutItemPage - INFO: Clicked on element with locator: processAddress locatorType: name
+04/11/2021 06:12:00 PM - CheckoutItemPage - INFO: Element found with locator: cgv and  locatorType: id
+04/11/2021 06:12:00 PM - CheckoutItemPage - INFO: Clicked on element with locator: cgv locatorType: id
+04/11/2021 06:12:00 PM - CheckoutItemPage - INFO: Element found with locator: processCarrier and  locatorType: name
+04/11/2021 06:12:02 PM - CheckoutItemPage - INFO: Clicked on element with locator: processCarrier locatorType: name
+04/11/2021 06:12:02 PM - CheckoutItemPage - INFO: Element found with locator: cheque and  locatorType: class
+04/11/2021 06:12:04 PM - CheckoutItemPage - INFO: Clicked on element with locator: cheque locatorType: class
+04/11/2021 06:12:04 PM - CheckoutItemPage - INFO: Element found with locator: p#cart_navigation  span and  locatorType: css
+04/11/2021 06:12:06 PM - CheckoutItemPage - INFO: Clicked on element with locator: p#cart_navigation  span locatorType: css
+04/11/2021 06:12:08 PM - CheckoutItemPage - INFO: Element found with locator: //button[@name='submit_search'] and  locatorType: xpath
+04/11/2021 06:12:08 PM - CheckoutItemPage - INFO: Element present with locator: //button[@name='submit_search'] locatorType: xpath
+04/11/2021 06:12:11 PM - TrackStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Checkout Successful Verification
+04/11/2021 06:12:11 PM - TrackStatus - INFO: test_checkoutItem ### TEST SUCCESSFUL
+04/11/2021 06:33:01 PM - LoginPage - INFO: Element not found with locator: Sign in and  locatorType: link
+04/11/2021 06:33:01 PM - LoginPage - INFO: Cannot click on the element with locator: Sign in locatorType: link
+04/11/2021 06:33:03 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 06:33:03 PM - LoginPage - INFO: Cannot send data on the element with locator: email locatorType: id
+04/11/2021 06:33:04 PM - LoginPage - INFO: Element not found with locator: passwd and  locatorType: id
+04/11/2021 06:33:04 PM - LoginPage - INFO: Cannot send data on the element with locator: passwd locatorType: id
+04/11/2021 06:33:04 PM - LoginPage - INFO: Element not found with locator: SubmitLogin and  locatorType: id
+04/11/2021 06:33:04 PM - LoginPage - INFO: Cannot click on the element with locator: SubmitLogin locatorType: id
+04/11/2021 06:33:05 PM - CheckoutItemPage - INFO: Element not found with locator: search_query_top and  locatorType: id
+04/11/2021 06:33:05 PM - CheckoutItemPage - INFO: Cannot send data on the element with locator: search_query_top locatorType: id
+04/11/2021 06:33:05 PM - CheckoutItemPage - INFO: Element not found with locator: submit_search and  locatorType: name
+04/11/2021 06:33:05 PM - CheckoutItemPage - INFO: Cannot click on the element with locator: submit_search locatorType: name
+04/11/2021 06:33:05 PM - CheckoutItemPage - INFO: Element not found with locator: search_query_top and  locatorType: id
+04/11/2021 06:33:05 PM - CheckoutItemPage - INFO: Cannot send data on the element with locator: search_query_top locatorType: id
+04/11/2021 06:33:05 PM - CheckoutItemPage - INFO: Element not found with locator: submit_search and  locatorType: name
+04/11/2021 06:33:05 PM - CheckoutItemPage - INFO: Cannot click on the element with locator: submit_search locatorType: name
+04/11/2021 06:33:06 PM - CheckoutItemPage - INFO: Element not found with locator: search_query_top and  locatorType: id
+04/11/2021 06:33:06 PM - CheckoutItemPage - INFO: Cannot send data on the element with locator: search_query_top locatorType: id
+04/11/2021 06:33:06 PM - CheckoutItemPage - INFO: Element not found with locator: submit_search and  locatorType: name
+04/11/2021 06:33:06 PM - CheckoutItemPage - INFO: Cannot click on the element with locator: submit_search locatorType: name
