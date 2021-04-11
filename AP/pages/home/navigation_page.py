@@ -2,6 +2,7 @@ import utilities.custom_logger as cl
 import logging
 from base.base_page import BasePage
 
+
 class NavigationPage(BasePage):
 
     log = cl.customLogger(logging.DEBUG)

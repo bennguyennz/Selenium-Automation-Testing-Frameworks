@@ -8,6 +8,7 @@ import logging
 import time
 import os
 
+
 # Exception handling and logging are built in to the custom methods in this class
 class SeleniumDriver():
 

@@ -1,7 +1,7 @@
 import unittest
 from tests.home.logintests import LoginTests
 #import utilities.HTMLTestRunner
-#from tests.courses.register_courses_test import RegisterCoursesCSVDataTests
+#from tests.items.checkout_item_tests import RegisterCoursesCSVDataTests
 
 # Get all tests from the test classes
 tc1 = unittest.TestLoader().loadTestsFromTestCase(LoginTests)

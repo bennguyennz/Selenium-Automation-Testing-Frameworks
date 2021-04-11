@@ -5,6 +5,7 @@ from pages.home.navigation_page import NavigationPage
 from selenium.webdriver.common.by import By
 import time
 
+
 # Inherit from BasePage class
 class LoginPage(BasePage):
 
@@ -43,15 +44,15 @@ class LoginPage(BasePage):
     def login(self, email="", password=""):
 
         self.clickLoginLink()
-        time.sleep(1)
+        time.sleep(0.5)
         nail = self.driver.find_element(By.XPATH, "//h3[contains(text(),'Already registered?')]")
         self.driver.execute_script("arguments[0].scrollIntoView(true);", nail)
         self.enterEmail(email)
-        time.sleep(1)
+        time.sleep(0.5)
         self.enterPassword(password)
-        time.sleep(1)
+        time.sleep(0.5)
         self.clickLoginButton()
-        time.sleep(1)
+        time.sleep(0.5)
 
     def verifyLoginSuccessful(self):
         result = self.isElementPresent("//h1[contains(text(),'My account')]",

@@ -4,3 +4,4 @@ AP/tests/home/__pycache__/logintests.cpython-38.pyc
 AP/tests/__pycache__/testsuite.cpython-38-pytest-6.1.1.pyc
 AP/pages/home/__pycache__/navigation_page.cpython-38.pyc
 AP/pages/home/__pycache__/login_page.cpython-38.pyc
+*.log
