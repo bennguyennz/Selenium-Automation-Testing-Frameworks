@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/pages/items/checkout_item_page.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

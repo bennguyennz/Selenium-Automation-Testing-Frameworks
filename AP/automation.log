@@ -8467,3 +8467,1099 @@
 04/11/2021 06:33:06 PM - CheckoutItemPage - INFO: Cannot send data on the element with locator: search_query_top locatorType: id
 04/11/2021 06:33:06 PM - CheckoutItemPage - INFO: Element not found with locator: submit_search and  locatorType: name
 04/11/2021 06:33:06 PM - CheckoutItemPage - INFO: Cannot click on the element with locator: submit_search locatorType: name
+04/11/2021 11:41:01 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 11:41:07 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 11:41:08 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 11:41:08 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 11:41:09 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 11:41:09 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 11:41:09 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 11:41:13 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 11:42:50 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 11:42:56 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 11:42:56 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 11:42:57 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 11:42:57 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 11:42:57 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 11:42:58 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 11:43:03 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 11:43:04 PM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/11/2021 11:43:10 PM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/11/2021 11:43:13 PM - SearchItemPage - INFO: Element not found with locator: //a[normalize-space()='Faded Short Sleeve T-shirts'] and  locatorType: id
+04/11/2021 11:48:28 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 11:48:32 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 11:48:33 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 11:48:33 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 11:48:33 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 11:48:34 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 11:48:34 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 11:48:35 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 11:48:35 PM - SearchItemPage - INFO: Element not found with locator: Women and  locatorType: link
+04/11/2021 11:48:35 PM - SearchItemPage - INFO: Cannot click on the element with locator: Women locatorType: link
+04/11/2021 11:48:36 PM - SearchItemPage - INFO: Element not found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/11/2021 11:49:36 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 11:49:40 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 11:49:41 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 11:49:41 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 11:49:41 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 11:49:42 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 11:49:42 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 11:50:07 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 11:50:07 PM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/11/2021 11:50:12 PM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/11/2021 11:50:13 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/11/2021 11:54:56 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 11:55:07 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/11/2021 11:55:08 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/11/2021 11:55:08 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/11/2021 11:55:08 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/11/2021 11:55:08 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/11/2021 11:55:09 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/11/2021 11:55:13 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/11/2021 11:55:14 PM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/11/2021 11:55:18 PM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/11/2021 11:55:20 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/11/2021 11:57:54 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/11/2021 11:57:59 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/12/2021 12:00:19 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/12/2021 12:00:22 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/12/2021 12:00:23 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/12/2021 12:00:23 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/12/2021 12:00:24 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/12/2021 12:00:24 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/12/2021 12:00:24 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/12/2021 12:00:28 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/12/2021 12:00:28 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:00:31 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:00:34 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:03:13 AM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/12/2021 12:03:23 AM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/12/2021 12:03:24 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/12/2021 12:03:24 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/12/2021 12:03:24 AM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/12/2021 12:03:25 AM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/12/2021 12:03:25 AM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/12/2021 12:03:35 AM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/12/2021 12:06:49 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:06:52 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:06:54 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:12:38 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:12:39 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:12:41 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:18:45 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:18:48 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:18:50 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:18:50 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:18:50 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:18:50 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:18:50 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:18:50 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:18:51 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:18:51 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:18:51 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:18:53 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:20:13 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:20:15 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:20:17 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:20:17 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:20:17 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:20:17 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:20:17 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:20:17 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:20:18 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:20:18 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:20:18 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:20:20 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:20:21 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:20:21 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:20:21 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:20:21 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:20:21 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:20:21 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:24:29 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:24:34 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:24:36 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:24:36 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:24:36 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:24:36 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:24:36 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:24:36 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:24:37 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:24:37 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:24:37 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:24:40 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:24:41 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:24:41 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:24:41 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:24:41 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:24:41 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:24:41 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:25:41 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:25:45 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:25:47 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:25:47 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:25:47 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:25:47 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:25:47 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:25:47 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:25:48 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:25:49 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:25:49 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:25:51 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:25:52 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:25:52 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:25:52 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:25:52 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:25:52 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:25:52 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:26:55 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:26:58 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:27:00 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:27:00 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:27:00 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:27:00 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:27:00 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:27:00 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:27:01 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:27:02 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:27:02 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:27:04 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:27:05 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:27:05 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:27:05 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:27:05 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:27:05 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:27:05 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:28:33 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:28:36 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:28:38 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:28:38 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:28:38 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:28:38 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:28:38 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:28:38 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:28:39 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:28:39 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:28:39 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:28:42 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:28:43 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:28:43 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:28:43 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:28:43 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:28:43 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:28:43 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:30:18 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:30:21 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:30:23 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:30:23 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:30:23 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:30:23 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:30:23 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:30:23 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:30:24 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:30:25 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:30:25 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:30:28 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:30:29 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:30:29 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:30:29 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:30:29 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:30:29 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:30:29 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:33:11 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:33:13 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:33:15 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:33:15 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:33:15 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:33:15 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:33:15 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:33:15 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:33:16 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:33:16 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:33:16 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:33:19 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:33:20 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:33:20 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:33:20 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:33:20 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:33:20 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:33:20 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:34:33 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:34:37 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:34:39 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:34:39 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:34:39 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:34:39 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:34:39 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:34:39 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:34:40 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:34:40 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:34:40 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:34:43 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:34:44 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:34:44 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:34:44 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:34:44 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:34:44 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:34:44 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:35:59 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:36:01 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:36:03 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:36:03 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:36:03 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:36:03 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:36:03 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:36:03 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:36:04 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:36:05 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:36:05 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:36:07 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:36:08 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:36:08 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:36:08 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:36:08 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:36:08 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:36:08 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:48:47 AM - SearchItemPage - INFO: Element found with locator: Women and  locatorType: link
+04/12/2021 12:48:50 AM - SearchItemPage - INFO: Clicked on element with locator: Women locatorType: link
+04/12/2021 12:48:52 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:48:52 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:48:52 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:48:52 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:48:52 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:48:52 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:48:53 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:48:53 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:48:53 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:48:55 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:48:56 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:48:56 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:48:56 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:48:56 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:48:56 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:48:56 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:56:56 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 12:56:59 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 12:57:01 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:57:01 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:57:01 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:57:01 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:57:01 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:57:01 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:57:02 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:57:02 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:57:02 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:57:04 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:57:05 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:57:05 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:57:05 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:57:05 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:57:05 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:57:05 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:59:04 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 12:59:07 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 12:59:09 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:59:09 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:59:09 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:59:09 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:59:09 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:59:09 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 12:59:10 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 12:59:11 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 12:59:11 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 12:59:13 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 12:59:14 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 12:59:14 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 12:59:14 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 12:59:14 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 12:59:14 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 12:59:14 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:02:56 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 01:02:58 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 01:03:00 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:03:00 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:03:00 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:03:00 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:03:00 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:03:00 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:03:01 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 01:03:02 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 01:03:02 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 01:03:03 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 01:03:04 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:03:04 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:03:04 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:03:04 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:03:04 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:03:04 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:03:23 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 01:03:25 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 01:03:27 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:03:28 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:03:28 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:03:28 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:03:28 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:03:28 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:03:29 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 01:03:29 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 01:03:29 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 01:03:30 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 01:03:32 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:03:32 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:03:32 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:03:32 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:03:32 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:03:32 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:04:13 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 01:04:17 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 01:04:18 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:04:18 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:04:18 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:04:18 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:04:18 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:04:18 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:04:20 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 01:04:20 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 01:04:20 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 01:04:23 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 01:04:25 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:04:25 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:04:25 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:04:25 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:04:25 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:04:25 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:17:02 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 01:17:05 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 01:17:06 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:17:06 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:17:06 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:17:06 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:17:06 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:17:06 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:17:09 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 01:17:10 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 01:17:10 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 01:17:12 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 01:17:15 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:17:15 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:17:15 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:17:15 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:17:15 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:17:15 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:17:16 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 01:17:18 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 01:17:19 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:17:19 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:17:19 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:17:19 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:17:19 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:17:19 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:17:22 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 01:17:22 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 01:17:22 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 01:17:27 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 01:17:30 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:17:30 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:17:30 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:17:30 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:17:30 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:17:30 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:17:32 AM - SearchItemPage - INFO: Element not found with locator: //a[@title='T-Shirts'] and  locatorType: xpath
+04/12/2021 01:17:32 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='T-Shirts'] locatorType: xpath
+04/12/2021 01:17:33 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:17:33 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:17:33 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:17:33 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:17:33 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:17:33 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:17:36 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 01:17:36 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 01:17:37 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 01:17:44 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 01:17:47 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:17:47 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:17:47 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:17:47 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:17:47 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:17:47 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:47:09 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 01:47:12 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 01:47:14 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:47:14 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 01:47:16 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 01:47:18 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:47:21 AM - SearchItemPage - INFO: Element not found with locator: //a[@title='T-Shirts'] and  locatorType: xpath
+04/12/2021 01:47:21 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='T-Shirts'] locatorType: xpath
+04/12/2021 01:47:23 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:52:04 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 01:52:07 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 01:52:09 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:52:09 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 01:52:11 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 01:52:13 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:52:15 AM - SearchItemPage - INFO: Element not found with locator: //a[@title='T-Shirts'] and  locatorType: xpath
+04/12/2021 01:52:15 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='T-Shirts'] locatorType: xpath
+04/12/2021 01:52:17 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:58:54 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 01:58:56 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 01:58:58 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:58:58 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 01:59:00 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 01:59:02 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:59:04 AM - SearchItemPage - INFO: Element not found with locator: //a[@title='T-Shirts'] and  locatorType: xpath
+04/12/2021 01:59:04 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='T-Shirts'] locatorType: xpath
+04/12/2021 01:59:06 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:04:01 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:04:05 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:04:07 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:04:07 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 02:04:09 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 02:04:12 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:04:14 AM - SearchItemPage - INFO: Element not found with locator: //a[@title='T-Shirts'] and  locatorType: xpath
+04/12/2021 02:04:14 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='T-Shirts'] locatorType: xpath
+04/12/2021 02:04:16 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:08:32 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:08:36 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:08:38 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:08:38 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 02:08:40 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 02:08:42 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:08:44 AM - SearchItemPage - INFO: Element not found with locator: //a[@title='T-Shirts'] and  locatorType: xpath
+04/12/2021 02:08:44 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='T-Shirts'] locatorType: xpath
+04/12/2021 02:08:46 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:11:06 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:11:09 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:11:11 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:11:11 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 02:11:13 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 02:11:15 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:11:17 AM - SearchItemPage - INFO: Element not found with locator: //a[@title='T-Shirts'] and  locatorType: xpath
+04/12/2021 02:11:17 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='T-Shirts'] locatorType: xpath
+04/12/2021 02:11:19 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:12:51 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:12:53 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:12:56 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:12:56 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 02:12:58 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 02:13:00 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:13:02 AM - SearchItemPage - INFO: Element not found with locator: //a[@title='T-Shirts'] and  locatorType: xpath
+04/12/2021 02:13:02 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='T-Shirts'] locatorType: xpath
+04/12/2021 02:13:04 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:26:28 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:26:32 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:26:34 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:26:34 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 02:26:36 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 02:26:38 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:26:40 AM - SearchItemPage - INFO: Element not found with locator: //a[@title='T-Shirts'] and  locatorType: xpath
+04/12/2021 02:26:40 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='T-Shirts'] locatorType: xpath
+04/12/2021 02:26:42 AM - SearchItemPage - INFO: Element list found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:27:56 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:27:59 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:28:01 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:28:01 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:28:01 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:28:01 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 02:28:01 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:28:01 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 02:28:04 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 02:28:04 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 02:28:04 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 02:28:06 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 02:28:09 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:28:09 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:28:09 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:28:09 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 02:28:09 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:28:09 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 02:28:10 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 02:28:12 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 02:28:14 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:28:14 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:28:14 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:28:14 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 02:28:14 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:28:14 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 02:28:17 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 02:28:17 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 02:28:17 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 02:28:19 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 02:28:22 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:28:22 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:28:22 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:28:22 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 02:28:22 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:28:22 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 02:28:25 AM - SearchItemPage - INFO: Element not found with locator: //a[@title='T-Shirts'] and  locatorType: xpath
+04/12/2021 02:28:25 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='T-Shirts'] locatorType: xpath
+04/12/2021 02:28:27 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:28:27 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:28:27 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:28:27 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 02:28:27 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:28:27 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 02:28:30 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 02:28:30 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 02:28:30 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 02:28:32 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 02:28:35 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:28:35 AM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:28:35 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:28:35 AM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 02:28:35 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:28:35 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 02:35:05 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:35:08 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:35:10 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:35:10 AM - SearchItemPage - INFO: Element not found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: css
+04/12/2021 02:35:10 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:35:10 AM - SearchItemPage - ERROR: Failed to get text on element 
+04/12/2021 02:35:10 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 02:35:12 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 02:35:14 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:35:14 AM - SearchItemPage - INFO: Element not found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: css
+04/12/2021 02:35:14 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:35:14 AM - SearchItemPage - ERROR: Failed to get text on element 
+04/12/2021 02:35:16 AM - SearchItemPage - INFO: Element not found with locator: //a[@title='T-Shirts'] and  locatorType: xpath
+04/12/2021 02:35:16 AM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='T-Shirts'] locatorType: xpath
+04/12/2021 02:35:18 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:35:18 AM - SearchItemPage - INFO: Element not found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: css
+04/12/2021 02:35:18 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:35:18 AM - SearchItemPage - ERROR: Failed to get text on element 
+04/12/2021 02:36:06 AM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:36:11 AM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:36:13 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:36:13 AM - SearchItemPage - INFO: Element found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: xpath
+04/12/2021 02:36:13 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:36:13 AM - SearchItemPage - DEBUG: After finding element, size is: 43
+04/12/2021 02:36:13 AM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:36:13 AM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts
+$16.51
+In stock'
+04/12/2021 02:36:16 AM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 02:36:20 AM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 02:36:20 AM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 02:36:22 AM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 02:36:25 AM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:36:27 AM - SearchItemPage - INFO: Element not found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:36:27 AM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:36:27 AM - SearchItemPage - ERROR: Failed to get text on element 
+04/12/2021 01:11:03 PM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 01:11:05 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 01:11:07 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:11:07 PM - SearchItemPage - INFO: Element found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: xpath
+04/12/2021 01:11:07 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:11:07 PM - SearchItemPage - DEBUG: After finding element, size is: 43
+04/12/2021 01:11:07 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:11:07 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts
+$16.51
+In stock'
+04/12/2021 01:11:10 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 01:11:12 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 01:11:12 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 01:11:14 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 01:11:17 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:11:19 PM - SearchItemPage - INFO: Element not found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:11:19 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:11:19 PM - SearchItemPage - ERROR: Failed to get text on element 
+04/12/2021 01:58:34 PM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 01:58:36 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 01:58:39 PM - SearchItemPage - INFO: Element list found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: xpath
+04/12/2021 01:58:41 PM - SearchItemPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+04/12/2021 01:58:41 PM - SearchItemPage - INFO: Element appeared on the web page
+04/12/2021 01:58:41 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:58:41 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/h1[1] and  locatorType: xpath
+04/12/2021 01:58:41 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:58:41 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:58:41 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:58:41 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:58:44 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 01:58:45 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 01:58:45 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 01:58:47 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 01:58:50 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:58:50 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 01:58:50 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:58:50 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 01:58:50 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 01:58:50 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 01:59:40 PM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 01:59:41 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 01:59:43 PM - SearchItemPage - INFO: Element list found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: xpath
+04/12/2021 01:59:44 PM - SearchItemPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+04/12/2021 01:59:54 PM - SearchItemPage - INFO: Element not appeared on the web page
+04/12/2021 01:59:54 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 01:59:56 PM - SearchItemPage - INFO: Element not found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/h1[1] and  locatorType: xpath
+04/12/2021 01:59:56 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 01:59:56 PM - SearchItemPage - ERROR: Failed to get text on element 
+04/12/2021 01:59:56 PM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 01:59:58 PM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 02:00:00 PM - SearchItemPage - INFO: Element list found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: xpath
+04/12/2021 02:00:00 PM - SearchItemPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+04/12/2021 02:00:10 PM - SearchItemPage - INFO: Element not appeared on the web page
+04/12/2021 02:00:10 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:00:12 PM - SearchItemPage - INFO: Element not found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/h1[1] and  locatorType: xpath
+04/12/2021 02:00:12 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:00:12 PM - SearchItemPage - ERROR: Failed to get text on element 
+04/12/2021 02:00:55 PM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:00:58 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:01:02 PM - SearchItemPage - INFO: Element list found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: xpath
+04/12/2021 02:01:02 PM - SearchItemPage - INFO: Element found with locator: //a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 02:01:04 PM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='Dresses'] locatorType: xpath
+04/12/2021 02:01:07 PM - SearchItemPage - INFO: Element list found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: xpath
+04/12/2021 02:01:07 PM - SearchItemPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+04/12/2021 02:01:17 PM - SearchItemPage - INFO: Element not appeared on the web page
+04/12/2021 02:01:17 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:01:19 PM - SearchItemPage - INFO: Element not found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/h1[1] and  locatorType: xpath
+04/12/2021 02:01:19 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:01:19 PM - SearchItemPage - ERROR: Failed to get text on element 
+04/12/2021 02:01:45 PM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:01:47 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:01:51 PM - SearchItemPage - INFO: Element list found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: xpath
+04/12/2021 02:02:45 PM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:02:48 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:02:52 PM - SearchItemPage - INFO: Element list found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: xpath
+04/12/2021 02:05:34 PM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:05:36 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:05:41 PM - SearchItemPage - INFO: Element not found with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] and  locatorType: xpath
+04/12/2021 02:05:41 PM - SearchItemPage - INFO: Cannot click on the element with locator: //li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line first-item-of-tablet-line first-item-of-mobile-line'] locatorType: xpath
+04/12/2021 02:05:41 PM - SearchItemPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+04/12/2021 02:05:51 PM - SearchItemPage - INFO: Element not appeared on the web page
+04/12/2021 02:05:51 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:05:53 PM - SearchItemPage - INFO: Element not found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/h1[1] and  locatorType: xpath
+04/12/2021 02:05:53 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:05:53 PM - SearchItemPage - ERROR: Failed to get text on element 
+04/12/2021 02:08:41 PM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:08:44 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:08:46 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:08:46 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 02:08:46 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:08:46 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 02:08:46 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:08:46 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 02:08:49 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 02:08:49 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 02:08:49 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 02:08:51 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 02:08:54 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:08:54 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:08:54 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:08:54 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 02:08:54 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:08:54 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 02:22:36 PM - SearchItemPage - INFO: Element found with locator: //a[@title='Women'] and  locatorType: xpath
+04/12/2021 02:22:38 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@title='Women'] locatorType: xpath
+04/12/2021 02:22:40 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:22:40 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 02:22:40 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:22:40 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 02:22:40 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:22:40 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 02:22:43 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 02:22:44 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 02:22:44 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 02:22:46 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 02:22:49 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:22:49 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:22:49 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:22:49 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 02:22:49 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:22:49 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 02:22:49 PM - SearchItemPage - INFO: Element found with locator: //a[@title='T-shirts'] and  locatorType: xpath
+04/12/2021 02:22:51 PM - SearchItemPage - INFO: Cannot click on the element with locator: //a[@title='T-shirts'] locatorType: xpath
+04/12/2021 02:22:54 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:22:54 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 02:22:54 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:22:54 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 02:22:54 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:22:54 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 02:22:57 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 02:22:57 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 02:22:57 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 02:22:59 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 02:23:02 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 02:23:02 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 02:23:02 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 02:23:02 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 02:23:02 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 02:23:02 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:02:10 PM - SearchItemPage - INFO: Element not found with locator: WOMEN and  locatorType: xpath
+04/12/2021 03:02:10 PM - SearchItemPage - INFO: Cannot click on the element with locator: WOMEN locatorType: xpath
+04/12/2021 03:02:12 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:02:14 PM - SearchItemPage - INFO: Element not found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:02:14 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:02:14 PM - SearchItemPage - ERROR: Failed to get text on element 
+04/12/2021 03:02:16 PM - SearchItemPage - INFO: Element not found with locator: T-SHIRTS and  locatorType: xpath
+04/12/2021 03:02:16 PM - SearchItemPage - INFO: Cannot click on the element with locator: T-SHIRTS locatorType: xpath
+04/12/2021 03:02:18 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:02:20 PM - SearchItemPage - INFO: Element not found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:02:20 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:02:20 PM - SearchItemPage - ERROR: Failed to get text on element 
+04/12/2021 03:04:11 PM - SearchItemPage - INFO: Element found with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] and  locatorType: xpath
+04/12/2021 03:04:14 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] locatorType: xpath
+04/12/2021 03:04:16 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:04:16 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:04:16 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:04:16 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:04:16 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:04:16 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:04:19 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:04:19 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:04:19 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:04:21 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:04:24 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:04:24 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:04:24 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:04:24 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:04:24 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:04:24 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:04:25 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] and  locatorType: xpath
+04/12/2021 03:04:27 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] locatorType: xpath
+04/12/2021 03:04:29 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:04:29 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:04:29 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:04:29 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:04:29 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:04:29 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:04:32 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:04:32 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:04:32 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:04:35 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:04:38 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:04:38 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:04:38 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:04:38 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:04:38 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:04:38 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:05:07 PM - SearchItemPage - INFO: Element found with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] and  locatorType: xpath
+04/12/2021 03:05:10 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] locatorType: xpath
+04/12/2021 03:05:12 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:05:12 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:05:12 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:05:12 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:05:12 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:05:12 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:05:15 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:05:15 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:05:15 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:05:17 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:05:20 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:05:20 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:05:20 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:05:20 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:05:20 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:05:20 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:05:20 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 03:05:22 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses'] locatorType: xpath
+04/12/2021 03:05:24 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:05:24 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:05:24 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:05:24 PM - SearchItemPage - DEBUG: After finding element, size is: 13
+04/12/2021 03:05:24 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:05:24 PM - SearchItemPage - INFO: The text is :: 'Printed Dress'
+04/12/2021 03:05:27 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:05:28 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:05:28 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:05:30 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:05:33 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:05:33 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:05:33 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:05:33 PM - SearchItemPage - DEBUG: After finding element, size is: 20
+04/12/2021 03:05:33 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:05:33 PM - SearchItemPage - INFO: The text is :: 'Printed Summer Dress'
+04/12/2021 03:05:33 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] and  locatorType: xpath
+04/12/2021 03:05:36 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] locatorType: xpath
+04/12/2021 03:05:38 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:05:38 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:05:38 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:05:38 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:05:38 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:05:38 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:05:41 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:05:41 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:05:41 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:05:43 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:05:46 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:05:46 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:05:46 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:05:46 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:05:46 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:05:46 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:06:13 PM - SearchItemPage - INFO: Element found with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] and  locatorType: xpath
+04/12/2021 03:06:16 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] locatorType: xpath
+04/12/2021 03:06:18 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:06:18 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:06:18 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:06:18 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:06:18 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:06:18 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:06:21 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:06:21 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:06:21 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:06:23 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:06:26 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:06:26 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:06:26 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:06:26 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:06:26 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:06:26 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:06:27 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 03:06:29 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses'] locatorType: xpath
+04/12/2021 03:06:31 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:06:31 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:06:31 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:06:31 PM - SearchItemPage - DEBUG: After finding element, size is: 13
+04/12/2021 03:06:31 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:06:31 PM - SearchItemPage - INFO: The text is :: 'Printed Dress'
+04/12/2021 03:06:34 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:06:34 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:06:34 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:06:37 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:06:40 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:06:40 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:06:40 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:06:40 PM - SearchItemPage - DEBUG: After finding element, size is: 20
+04/12/2021 03:06:40 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:06:40 PM - SearchItemPage - INFO: The text is :: 'Printed Summer Dress'
+04/12/2021 03:06:41 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] and  locatorType: xpath
+04/12/2021 03:06:43 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] locatorType: xpath
+04/12/2021 03:06:45 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:06:45 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:06:45 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:06:45 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:06:45 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:06:45 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:06:48 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:06:49 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:06:49 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:06:50 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:06:53 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:06:53 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:06:53 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:06:53 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:06:53 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:06:53 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:08:26 PM - SearchItemPage - INFO: Element found with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] and  locatorType: xpath
+04/12/2021 03:08:28 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] locatorType: xpath
+04/12/2021 03:08:30 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:08:30 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:08:30 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:08:30 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:08:30 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:08:30 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:08:33 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:08:33 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:08:33 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:08:35 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:08:38 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:08:38 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:08:38 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:08:38 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:08:38 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:08:38 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:08:39 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 03:08:42 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses'] locatorType: xpath
+04/12/2021 03:08:44 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:08:44 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:08:44 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:08:44 PM - SearchItemPage - DEBUG: After finding element, size is: 13
+04/12/2021 03:08:44 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:08:44 PM - SearchItemPage - INFO: The text is :: 'Printed Dress'
+04/12/2021 03:08:47 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:08:47 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:08:47 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:08:50 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:08:53 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:08:53 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:08:53 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:08:53 PM - SearchItemPage - DEBUG: After finding element, size is: 20
+04/12/2021 03:08:53 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:08:53 PM - SearchItemPage - INFO: The text is :: 'Printed Summer Dress'
+04/12/2021 03:08:53 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] and  locatorType: xpath
+04/12/2021 03:08:56 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] locatorType: xpath
+04/12/2021 03:08:58 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:08:58 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:08:58 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:08:58 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:08:58 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:08:58 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:09:01 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:09:01 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:09:01 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:09:03 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:09:06 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:09:06 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:09:06 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:09:06 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:09:06 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:09:06 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:10:47 PM - SearchItemPage - INFO: Element found with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] and  locatorType: xpath
+04/12/2021 03:10:50 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] locatorType: xpath
+04/12/2021 03:10:52 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:10:52 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:10:52 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:10:52 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:10:52 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:10:52 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:10:55 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:10:55 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:10:56 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:10:57 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:11:00 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:11:00 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:11:00 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:11:00 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:11:00 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:11:00 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:11:01 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 03:11:03 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses'] locatorType: xpath
+04/12/2021 03:11:05 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:11:05 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:11:05 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:11:05 PM - SearchItemPage - DEBUG: After finding element, size is: 13
+04/12/2021 03:11:05 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:11:05 PM - SearchItemPage - INFO: The text is :: 'Printed Dress'
+04/12/2021 03:11:08 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:11:08 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:11:08 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:11:10 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:11:13 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:11:14 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:11:14 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:11:14 PM - SearchItemPage - DEBUG: After finding element, size is: 20
+04/12/2021 03:11:14 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:11:14 PM - SearchItemPage - INFO: The text is :: 'Printed Summer Dress'
+04/12/2021 03:11:14 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] and  locatorType: xpath
+04/12/2021 03:11:16 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] locatorType: xpath
+04/12/2021 03:11:18 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:11:18 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:11:18 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:11:18 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:11:18 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:11:18 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:11:21 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:11:21 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:11:21 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:11:23 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:11:26 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:11:26 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:11:26 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:11:26 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:11:26 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:11:26 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:16:08 PM - SearchItemPage - INFO: Element found with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] and  locatorType: xpath
+04/12/2021 03:16:10 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] locatorType: xpath
+04/12/2021 03:16:12 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:16:12 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:16:12 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:16:12 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:16:12 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:16:12 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:16:15 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:16:16 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:16:16 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:16:17 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:16:20 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:16:20 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:16:20 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:16:20 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:16:20 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:16:20 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:16:21 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 03:16:24 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses'] locatorType: xpath
+04/12/2021 03:16:26 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:16:26 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:16:26 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:16:26 PM - SearchItemPage - DEBUG: After finding element, size is: 13
+04/12/2021 03:16:26 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:16:26 PM - SearchItemPage - INFO: The text is :: 'Printed Dress'
+04/12/2021 03:16:29 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:16:29 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:16:29 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:16:31 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:16:34 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:16:34 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:16:34 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:16:34 PM - SearchItemPage - DEBUG: After finding element, size is: 20
+04/12/2021 03:16:34 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:16:34 PM - SearchItemPage - INFO: The text is :: 'Printed Summer Dress'
+04/12/2021 03:16:35 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] and  locatorType: xpath
+04/12/2021 03:16:38 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] locatorType: xpath
+04/12/2021 03:16:40 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:16:40 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 03:16:40 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:16:40 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:16:40 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:16:40 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 03:16:43 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 03:16:43 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 03:16:43 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 03:16:45 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 03:16:48 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 03:16:48 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 03:16:48 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 03:16:48 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 03:16:48 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 03:16:48 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 10:23:17 PM - LoginPage - INFO: Element found with locator: Sign in and  locatorType: link
+04/12/2021 10:23:21 PM - LoginPage - INFO: Clicked on element with locator: Sign in locatorType: link
+04/12/2021 10:23:22 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+04/12/2021 10:23:22 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+04/12/2021 10:23:22 PM - LoginPage - INFO: Element found with locator: passwd and  locatorType: id
+04/12/2021 10:23:23 PM - LoginPage - INFO: Sent data on element with locator: passwd locatorType: id
+04/12/2021 10:23:23 PM - LoginPage - INFO: Element found with locator: SubmitLogin and  locatorType: id
+04/12/2021 10:23:27 PM - LoginPage - INFO: Clicked on element with locator: SubmitLogin locatorType: id
+04/12/2021 10:25:45 PM - SearchItemPage - INFO: Element found with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] and  locatorType: xpath
+04/12/2021 10:25:49 PM - SearchItemPage - INFO: Clicked on element with locator: //a[@class='sf-with-ul'][normalize-space()='Women'] locatorType: xpath
+04/12/2021 10:25:51 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 10:25:51 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 10:25:51 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 10:25:51 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 10:25:51 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 10:25:51 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 10:25:54 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 10:25:54 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 10:25:54 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 10:25:57 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 10:26:00 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 10:26:00 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 10:26:00 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 10:26:00 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 10:26:00 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 10:26:00 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 10:26:01 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses'] and  locatorType: xpath
+04/12/2021 10:26:03 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses'] locatorType: xpath
+04/12/2021 10:26:05 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 10:26:05 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 10:26:05 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 10:26:05 PM - SearchItemPage - DEBUG: After finding element, size is: 13
+04/12/2021 10:26:05 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 10:26:05 PM - SearchItemPage - INFO: The text is :: 'Printed Dress'
+04/12/2021 10:26:08 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 10:26:09 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 10:26:09 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 10:26:12 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 10:26:15 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 10:26:15 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 10:26:15 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 10:26:15 PM - SearchItemPage - DEBUG: After finding element, size is: 20
+04/12/2021 10:26:15 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 10:26:15 PM - SearchItemPage - INFO: The text is :: 'Printed Summer Dress'
+04/12/2021 10:26:15 PM - SearchItemPage - INFO: Element found with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] and  locatorType: xpath
+04/12/2021 10:26:20 PM - SearchItemPage - INFO: Clicked on element with locator: //div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts'] locatorType: xpath
+04/12/2021 10:26:22 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 10:26:22 PM - SearchItemPage - INFO: Element found with locator: /html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[1]/div[1]/div[2]/h5[1]/a[1] and  locatorType: xpath
+04/12/2021 10:26:22 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 10:26:22 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 10:26:22 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 10:26:22 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'
+04/12/2021 10:26:25 PM - SearchItemPage - INFO: Element found with locator: search_query_top and  locatorType: id
+04/12/2021 10:26:25 PM - SearchItemPage - INFO: Sent data on element with locator: search_query_top locatorType: id
+04/12/2021 10:26:25 PM - SearchItemPage - INFO: Element found with locator: submit_search and  locatorType: name
+04/12/2021 10:26:28 PM - SearchItemPage - INFO: Clicked on element with locator: submit_search locatorType: name
+04/12/2021 10:26:31 PM - SearchItemPage - DEBUG: In locator condition
+04/12/2021 10:26:31 PM - SearchItemPage - INFO: Element found with locator: h5[itemprop='name'] a[class$='product-name'] and  locatorType: css
+04/12/2021 10:26:31 PM - SearchItemPage - DEBUG: Before finding text
+04/12/2021 10:26:31 PM - SearchItemPage - DEBUG: After finding element, size is: 27
+04/12/2021 10:26:31 PM - SearchItemPage - INFO: Getting text on element :: 
+04/12/2021 10:26:31 PM - SearchItemPage - INFO: The text is :: 'Faded Short Sleeve T-shirts'

@@ -36,7 +36,7 @@ class CheckoutItemPage(BasePage):
     ### Element Interactions ###
     ############################
 
-    def enterItemName(self, name):
+    def enterSearchKeyword(self, name):
         self.sendKeys(name, locator=self._search_box)
         self.elementClick(locator=self._search_box_button,locatorType="name")
 

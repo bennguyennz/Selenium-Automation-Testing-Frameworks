@@ -6,7 +6,6 @@ from ddt import ddt, data, unpack
 from utilities.read_data import getCSVData
 import time
 
-
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 @ddt
 class CheckOutItemTests(unittest.TestCase):
@@ -17,14 +16,14 @@ class CheckOutItemTests(unittest.TestCase):
         self.ts = TrackStatus(self.driver)
         self.nav = NavigationPage(self.driver)
 
-    @pytest.mark.run(order=1)
+    @pytest.mark.run(order=4)
     # * is to unpack if tuples, lists etc are used in data
     # getCSVData was mentioned in import statement above so @data recognizes it
     # Use full path + filename
     @data(*getCSVData("/Users/phuongvth/Documents/GitHub/AutomationTest-DDF/AP/testdata2.csv"))
     @unpack
     def test_checkoutItem(self,search_keyword,item_name,size,color):
-        self.items.enterItemName(search_keyword)
+        self.items.enterSearchKeyword(search_keyword)
         time.sleep(0.5)
         self.items.selectItem(item_name)
         time.sleep(0.5)

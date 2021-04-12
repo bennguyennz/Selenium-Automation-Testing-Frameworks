@@ -12,8 +12,7 @@ class NavigationPage(BasePage):
         self.driver = driver
 
     # Locators
-
-    _user_settings_icon = "//*[@class='gravatar']"
+    _user_settings_icon = "abc"
 
     def navigateToUserSettings(self):
-        self.elementClick(locator=self._user_settings_icon, locatorType="xpath")
+        self.elementClick(locator=self._user_settings_icon, locatorType="css")
