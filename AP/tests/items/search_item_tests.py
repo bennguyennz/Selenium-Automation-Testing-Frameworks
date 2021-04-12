@@ -5,12 +5,12 @@ from ddt import ddt, data, unpack
 from utilities.read_data import getCSVData
 import time
 
-@pytest.mark.usefixtures("oneTimeSetUp", "setUp")
+@pytest.mark.usefixtures("oneTimeSetUpNoLogin", "setUp")
 @ddt
 class SearchItemTests(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
-    def objectSetup(self, oneTimeSetUp):
+    def objectSetup(self, oneTimeSetUpNoLogin):
         self.items = SearchItemPage(self.driver)
         self.ts = TrackStatus(self.driver)
 

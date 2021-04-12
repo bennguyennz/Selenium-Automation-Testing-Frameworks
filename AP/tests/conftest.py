@@ -14,6 +14,21 @@ def oneTimeSetUp(request, browser):
     print("Running one time setUp")
     wdf = WebDriverFactory(browser)
     driver = wdf.getWebDriverInstance()
+    lp = LoginPage(driver)
+    lp.login("nguyenbinhit@gmail.com", "1234576")
+
+    if request.cls is not None:
+        request.cls.driver = driver
+
+    yield driver
+    driver.quit()
+    print("Running one time tearDown")
+
+@pytest.yield_fixture(scope="class")
+def oneTimeSetUpNoLogin(request, browser):
+    print("Running one time setUp")
+    wdf = WebDriverFactory(browser)
+    driver = wdf.getWebDriverInstance()
     #lp = LoginPage(driver)
     #lp.login("nguyenbinhit@gmail.com", "1234576")
 
