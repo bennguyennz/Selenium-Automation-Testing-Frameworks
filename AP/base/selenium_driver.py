@@ -220,11 +220,11 @@ class SeleniumDriver():
             print_stack()
         return element
 
-    def webScroll(self, direction="down"):
+    def webScroll(self, direction="down",value = 400):
         if direction == "up":
             # Scroll Up
-            self.driver.execute_script("window.scrollBy(0, -400);")
+            self.driver.execute_script("window.scrollBy(0, -%s);" %value)
 
         if direction == "down":
             # Scroll Down
-            self.driver.execute_script("window.scrollBy(0, 400);")
+            self.driver.execute_script("window.scrollBy(0, %s);" %value)

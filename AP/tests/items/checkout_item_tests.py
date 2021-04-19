@@ -28,7 +28,7 @@ class CheckOutItemTests(unittest.TestCase):
         self.items.selectItem(item_name)
         time.sleep(0.5)
         self.items.clickOnAddtoCart(size,color)
-        time.sleep(2)
+        time.sleep(1)
         self.items.clickProceedtoCheckout()
         time.sleep(0.5)
         self.items.clickProceedtoCheckout_Sumary()
@@ -42,7 +42,7 @@ class CheckOutItemTests(unittest.TestCase):
         self.items.clickConfirm()
         time.sleep(1)
         result = self.items.verifyCompleteCheckout()
-        time.sleep(3)
+        time.sleep(1)
         self.ts.markFinal("test_checkoutItem", result,
                           "Checkout Successful Verification")
 ######################

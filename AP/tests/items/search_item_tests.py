@@ -20,17 +20,19 @@ class SearchItemTests(unittest.TestCase):
     # Use full path + filename
     @data(*getCSVData("/Users/phuongvth/Documents/GitHub/AutomationTest-DDF/AP/testdata3.csv"))
     @unpack
-    def test_searchItem(self,category):
+    def test_searchItem(self,category,itemSearch):
         #click category Women
         self.items.clickCategory(category)
-        time.sleep(2)
-        selectItem = self.items.selectItem()
-        print("Item selected: " + selectItem)
-        time.sleep(2)
+        time.sleep(1)
+        selectItem = self.items.selectItem(itemSearch)
+        #print("Item selected: " + selectItem)
+        time.sleep(1)
         self.items.searchItem(selectItem)
-        time.sleep(2)
-        SearchResult = self.items.getSearchResult()
-        print("Item name returned: " + SearchResult)
+        time.sleep(1)
+        SearchResult = self.items.getSearchResult(selectItem)
+        time.sleep(1)
+        #print("Item name returned: " + SearchResult)
         # if selectItem != SearchResult:
         # print("Search result")
+
         self.driver.back()

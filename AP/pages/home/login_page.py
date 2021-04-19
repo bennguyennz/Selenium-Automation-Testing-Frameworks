@@ -46,7 +46,7 @@ class LoginPage(BasePage):
 
         self.clickLoginLink()
         time.sleep(0.5)
-        self.webScroll("down")
+        self.webScroll()
         self.enterEmail(email)
         time.sleep(0.5)
         self.enterPassword(password)

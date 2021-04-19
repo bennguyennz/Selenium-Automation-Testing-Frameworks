@@ -41,7 +41,7 @@ class CheckoutItemPage(BasePage):
         self.elementClick(locator=self._search_box_button,locatorType="name")
 
     def selectItem(self, ItemName):
-        self.webScroll("down")
+        self.webScroll()
         self.elementClick(locator=self._item_name.format(ItemName),locatorType="xpath")
 
     def clickOnAddtoCart(self,_size="",_color=""):

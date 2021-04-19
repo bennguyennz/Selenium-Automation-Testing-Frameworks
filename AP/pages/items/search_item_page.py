@@ -1,7 +1,7 @@
 import utilities.custom_logger as cl
 import logging
 from base.base_page import BasePage
-
+import time
 
 class SearchItemPage(BasePage):
 
@@ -18,7 +18,8 @@ class SearchItemPage(BasePage):
     #_itemSelect = "/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/h1[1]"
     _search_box = "search_query_top"
     _search_button = "submit_search"
-    _search_result = "h5[itemprop='name'] a[class$='product-name']"
+    _search_result = "//li[contains(@class,'ajax_block_product')]"
+    #_search_result = "h5[itemprop='name'] a[class$='product-name']"
 
 
     ############################
@@ -34,19 +35,19 @@ class SearchItemPage(BasePage):
         elif category == "T-shirts":
             _category = "//div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts']"
         else:
+            _category = ""
             print("Category is not defined.")
 
         self.elementClick(locator=_category,locatorType="xpath")
-        self.webScroll()
-        self.webScroll()
+        self.webScroll("down",800)
 
     # Select an item and get its name
-    def selectItem(self):
-        SelectItem = self.getText(locator=self._itemlist,locatorType="xpath")
-        #ItemList[1].click()
-        #self.waitForElement(locator=self._itemSelect,locatorType="xpath")
-        #SelectItem = self.getText(locator=self._itemSelect,locatorType="xpath")
-        return SelectItem
+    def selectItem(self,itemSearch):
+        products = self.driver.find_elements_by_xpath("//li[contains(@class,'ajax_block_product')]")
+        for product in products:
+            elementproduct = product.find_element_by_xpath("div/div/h5/a").text
+            if elementproduct == itemSearch:
+                return elementproduct
 
     # Enter this item into page search box and begin search
     def searchItem(self,itemName):
@@ -55,6 +56,16 @@ class SearchItemPage(BasePage):
         self.webScroll()
 
     # Verify search result
-    def getSearchResult(self):
-        SearchResult = self.getText(locator=self._search_result,locatorType="css")
-        return SearchResult
+    def getSearchResult(self, SelectItem):
+        #SearchResult = self.getText(locator=self._search_result,locatorType="css")
+        products = self.driver.find_elements_by_xpath("//li[contains(@class,'ajax_block_product')]")
+        #print(products)
+        for product in products:
+        #     if item.getElement(locator="div/div/h5/a",locatorType="xpath").text == SelectItem:
+            elementproduct = product.find_element_by_xpath("div/div/h5/a")
+            if elementproduct.text == SelectItem:
+                time.sleep(1)
+                elementproduct.click()
+                self.webScroll()
+
+        #return SearchResult
