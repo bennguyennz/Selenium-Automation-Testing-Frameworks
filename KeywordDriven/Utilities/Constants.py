@@ -2,10 +2,10 @@
 class Constants():
 
     #Folder locations
-    Path_TestData = "C:\\Users\\Vikas\\Desktop\\Selenium notes\\KeywordDrive docs\\Test data.xlsx"
-    Path_Snapshot = "C:\\Users\\Vikas\\PycharmProjects\\KeywordDriven\\Screenshots\\"
-    Path_IE_driver = "C:\\Users\\Vikas\\Desktop\\All\\Vikas\\Selenium\\IEDriverServer.exe"
-    Path_Chrome_driver = "C:\\Users\\Vikas\\Desktop\\All\\Vikas\\Selenium\\chromedriver.exe"
+    Path_TestData = "/Users/phuongvth/Documents/GitHub/AutomationTest-DDF/KeywordDriven/Testdata.xls"
+    Path_Snapshot = "/Users/phuongvth/Documents/GitHub/AutomationTest-DDF/KeywordDriven/Screenshots/"
+    Path_IE_driver = "/Users/phuongvth/Documents/GitHub/AutomationTest-DDF/KeywordDriven/Driver/geckodriver"
+    Path_Chrome_driver = "/Users/phuongvth/Documents/GitHub/AutomationTest-DDF/KeywordDriven/Driver/chromedriver"
 
 
 
@@ -32,5 +32,5 @@ class Constants():
 
     #DB connection details
     # 'userid/password@99.999.9.99:PORT/SID'
-    Conn_String = "inventory1/inventory1@localhost:1521/xe"
+    #Conn_String = "inventory1/inventory1@localhost:1521/xe"
 

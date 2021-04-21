@@ -25,8 +25,8 @@ class LoginPage(BasePage):
     _email_field = "email"
     _password_field = "passwd"
     _login_button = "SubmitLogin"
-    _successful_validation="//p[@class='info-account']"
-    _unsuccessful_validation="//p[contains(text(),'There is 1 error')]"
+    _successful_validation = "//p[@class='info-account']"
+    _unsuccessful_validation = "//p[contains(text(),'There is 1 error')]"
 
     # The custom elementClick and sendKeys methods locate the element then perform the action on the element
     # sendKeys is the custom method, not send_keys

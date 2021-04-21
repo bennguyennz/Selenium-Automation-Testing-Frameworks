@@ -3,6 +3,7 @@ import logging
 from base.base_page import BasePage
 from selenium.webdriver.support.select import Select
 
+
 class CheckoutItemPage(BasePage):
 
     log = cl.customLogger(logging.DEBUG)
@@ -18,7 +19,7 @@ class CheckoutItemPage(BasePage):
     # {0} is a placeholder and the actual value that will be used is passed in by .format()
     _search_box_button = "submit_search"
     _item_name = "//a[@title='{0}'][normalize-space()='{0}']"
-    _dropdown_list ="group_1"
+    _dropdown_list = "group_1"
     _size = "0"
     _choose_color = "//a[@name='{0}']"
     _add_to_cart_button = "//span[contains(text(),'Add to cart')]"
@@ -37,21 +38,22 @@ class CheckoutItemPage(BasePage):
     ############################
 
     def enterSearchKeyword(self, name):
+
         self.sendKeys(name, locator=self._search_box)
-        self.elementClick(locator=self._search_box_button,locatorType="name")
+        self.elementClick(locator=self._search_box_button, locatorType="name")
 
     def selectItem(self, ItemName):
         self.webScroll()
-        self.elementClick(locator=self._item_name.format(ItemName),locatorType="xpath")
+        self.elementClick(locator=self._item_name.format(ItemName), locatorType="xpath")
 
-    def clickOnAddtoCart(self,_size="",_color=""):
-        dropdownlist = Select(self.getElement(locator=self._dropdown_list))
+    def clickOnAddtoCart(self,_size="", _color=""):
+        dropdownlist = Select(self.getElement(locator = self._dropdown_list))
         dropdownlist.select_by_visible_text(format(_size))
-        self.elementClick(locator=self._choose_color.format(_color),locatorType="xpath")
-        self.elementClick(locator=self._add_to_cart_button,locatorType="xpath")
+        self.elementClick(locator = self._choose_color.format(_color), locatorType = "xpath")
+        self.elementClick(locator = self._add_to_cart_button, locatorType = "xpath")
 
     def clickProceedtoCheckout(self):
-        self.elementClick(locator=self._proceed_to_checkout_button,locatorType="xpath")
+        self.elementClick(locator = self._proceed_to_checkout_button,locatorType = "xpath")
 
     def clickProceedtoCheckout_Sumary(self):
         self.elementClick(locator=self._proceed_to_checkout_summary,locatorType="css")

@@ -3,11 +3,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
-from Utilities.custom_logger import customLogger as lg
+import Utilities.custom_logger as lg
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver import ActionChains
 from Utilities.Constants import Constants
-import cx_Oracle
+#import cx_Oracle
 import re
 ##################################################
 import time
@@ -17,7 +17,7 @@ class SeleniumDriver():
 
 
     # Create object instance for logging
-    log = lg.log_utility(logging.DEBUG)
+    log = lg.customLogger(logging.DEBUG)
 
     # Set init value for driver and Constants
     def __init__(self,driver):
@@ -411,8 +411,8 @@ class SeleniumDriver():
         try:
             # Using regex match only alphanumeric characters excluding special characters
             # and replacing with blank character
-            nDBvalue = re.sub("[^\w\.]", "", self.DBvalue)
-            nUIvalue = re.sub("[^\w\.]", "", self.UIvalue)
+        #B    nDBvalue = re.sub("[^\w\.]", "", self.DBvalue)
+        #B    nUIvalue = re.sub("[^\w\.]", "", self.UIvalue)
             # compare db and UI value
             if nDBvalue == nUIvalue:
                 return True

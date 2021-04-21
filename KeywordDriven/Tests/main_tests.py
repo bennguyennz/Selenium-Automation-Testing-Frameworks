@@ -1,23 +1,23 @@
-from Utilities.Test_Status import TestStatus
+from Utilities.Test_Status import TrackStatus
 import unittest
 import pytest
 from ddt import ddt, data, unpack
 from Utilities.Constants import Constants
 from Utilities.excelread import excelUtil
 from Utilities.module_mapping import driver_mapping
-from Utilities.custom_logger import customLogger as lg
+import Utilities.custom_logger as lg
 import logging
 
 @pytest.mark.usefixtures("invoke_browser")
 @ddt
 class mainTests(unittest.TestCase):
 
-    log = lg.log_utility(logging.INFO)
+    log = lg.customLogger(logging.INFO)
 
     # Initialize object instances for test case result, constants, exceldata, method mapping
     @pytest.fixture(autouse=True)
     def initialSetup(self,invoke_browser):
-        self.ts = TestStatus(self.driver)
+        self.ts = TrackStatus(self.driver)
         self.constants = Constants()
         self.excel = excelUtil()
         self.drivermethod = driver_mapping(self.driver)
@@ -39,7 +39,7 @@ class mainTests(unittest.TestCase):
             # Get test case id from test suite worksheet
             nTestCaseID = self.excel.getCellData(ntestCase,self.constants.Col_TestCaseID,self.constants.Sheet_TestCases)
             # Get test case description
-            nTestCaseDescrption = self.excel.getCellData(ntestCase,self.constants.Col_TestCaseDescription,self.constants.Sheet_TestCases)
+            nTestCaseDescription = self.excel.getCellData(ntestCase,self.constants.Col_TestCaseDescription,self.constants.Sheet_TestCases)
             # Get runmode from testsuite worksheet
             sRunMode = self.excel.getCellData(ntestCase,self.constants.Col_RunMode,self.constants.Sheet_TestCases)
 
@@ -52,7 +52,7 @@ class mainTests(unittest.TestCase):
                 # If no entries in test data sheet then execute for loop only once
                 # Start for loop with number of entries
                 self.log.info("*****************************************************************************************************")
-                self.log.info("Test case: " + str(nTestCaseID) + ":" + str(nTestCaseDescrption))
+                self.log.info("Test case: " + str(nTestCaseID) + ":" + str(nTestCaseDescription))
                 self.log.info("*****************************************************************************************************")
                 # Start id of test step based on the tc id
                 for ntest in range(1, test_iterations):
@@ -92,7 +92,7 @@ class mainTests(unittest.TestCase):
                             stepresult = self.drivermethod.execute_keyword(nActionKeyword,nProperty,testdata_value,nObject_Value)
                             self.ts.mark(stepresult,nstepDescription)
                     # Test case status (Pass or Fail)
-                    self.ts.markFinal(nTestCaseID,stepresult,nTestCaseDescrption)
+                    self.ts.markFinal(nTestCaseID,stepresult,nTestCaseDescription)
 
 
 

@@ -1,12 +1,12 @@
 import xlrd
-from Utilities.custom_logger import customLogger as lg
+import Utilities.custom_logger as lg
 from Utilities.Constants import Constants
 import logging
-import sys
+#import sys
 
 class excelUtil():
 
-    log = lg.log_utility(logging.DEBUG)
+    log = lg.customLogger(logging.DEBUG)
     constants = Constants()
 
   # Open excel

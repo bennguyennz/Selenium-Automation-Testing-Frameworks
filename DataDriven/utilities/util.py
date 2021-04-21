@@ -62,7 +62,7 @@ class Util(object):
 
         Parameters:
             listSize: Number of names. Default is 5 names in a list
-            itemLength: It should be a list containing number of items equal to the listSize
+            itemLength: It should be a list containing number of item equal to the listSize
                         This determines the length of each item in the list -> [1, 2, 3, 4, 5]
         """
         nameList = []

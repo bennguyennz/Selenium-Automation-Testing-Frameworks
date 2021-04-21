@@ -1,7 +1,7 @@
 import unittest
-from tests.home.logintests import LoginTests
-from tests.items.checkout_item_tests import CheckOutItemTests
-from tests.items.search_item_tests import SearchItemTests
+from tests.home.login_tests import LoginTests
+from tests.item.checkout_item_tests import CheckOutItemTests
+from tests.item.search_item_tests import SearchItemTests
 
 
 # Get all tests from the test classes

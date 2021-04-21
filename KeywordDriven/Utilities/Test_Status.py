@@ -1,46 +1,59 @@
-from Utilities.custom_logger import customLogger as lg
+import Utilities.custom_logger as cl
 import logging
 from Driver.selenium_driver import SeleniumDriver
-
-class TestStatus(SeleniumDriver):
-
-    log = lg.log_utility(logging.DEBUG)
-    def __init__(self,driver):
-        self.driver = driver
-        super().__init__(driver)
-        self.resultlist=[]
+from traceback import print_stack
 
 
-    def setResult(self,result,resultMessage):
-        if result is None:
-            self.resultlist.append("Fail")
-            self.log.info(resultMessage+":Fail")
-            self.capturescreen()
-        else:
-            if result:
-                self.resultlist.append("Pass")
-                self.log.info(str(resultMessage)+":Pass")
+class TrackStatus(SeleniumDriver):
+
+    log = cl.customLogger(logging.INFO)
+
+    def __init__(self, driver):
+        """
+        Inits CheckPoint class
+        """
+        super(TrackStatus, self).__init__(driver)
+        self.resultList = []
+
+    def setResult(self, result, resultMessage):
+        try:
+            if result is not None:
+                if result:
+                    self.resultList.append("PASS")
+                    self.log.info("### VERIFICATION SUCCESSFUL :: + " + resultMessage)
+                else:
+                    self.resultList.append("FAIL")
+                    self.log.error("### VERIFICATION FAILED :: + " + resultMessage)
+                    self.capturescreen(resultMessage)
             else:
-                self.resultlist.append("Fail")
-                self.log.info(resultMessage+":Fail")
-                self.capturescreen()
+                self.resultList.append("FAIL")
+                self.log.error("### VERIFICATION FAILED :: + " + resultMessage)
+                self.capturescreen(resultMessage)
+        except:
+            self.resultList.append("FAIL")
+            self.log.error("### Exception Occurred !!!")
+            self.capturescreen(resultMessage)
+            print_stack()
 
-    def mark(self,result,resultMessage):
-        self.setResult(result,resultMessage)
+    def mark(self, result, resultMessage):
+        """
+        Mark the result of the verification point in a test case
+        """
+        self.setResult(result, resultMessage)
 
+    def markFinal(self, testName, result, resultMessage):
+        """
+        Mark the final result of the verification point in a test case
+        This needs to be called at least once in a test case
+        This should be final test status of the test case
+        """
+        self.setResult(result, resultMessage)
 
-    def markFinal(self,testName,result,resultMessage):
-        #self.setResult(result,resultMessage)
-
-        if "Fail" in self.resultlist:
-            self.log.error("Testcase FAILED: "+testName+" :"+resultMessage)
-            self.resultlist.clear()
-            assert False == False
+        if "FAIL" in self.resultList:
+            self.log.error(testName + " ### TEST FAILED")
+            self.resultList.clear()
+            assert True == False
         else:
-            self.log.info("Testcase PASSED: "+testName+" :"+resultMessage)
-            self.resultlist.clear()
+            self.log.info(testName + " ### TEST SUCCESSFUL")
+            self.resultList.clear()
             assert True == True
-
-
-
-
