@@ -1,10 +1,10 @@
 import unittest
-from tests.home.login_tests import LoginTests
-from tests.item.checkout_item_tests import CheckOutItemTests
-from tests.item.search_item_tests import SearchItemTests
+from Tests.home.login_tests import LoginTests
+from Tests.item.checkout_item_tests import CheckOutItemTests
+from Tests.item.search_item_tests import SearchItemTests
 
 
-# Get all tests from the test classes
+# Get all Tests from the test classes
 tc1 = unittest.TestLoader().loadTestsFromTestCase(LoginTests)
 tc2 = unittest.TestLoader().loadTestsFromTestCase(CheckOutItemTests)
 tc3 = unittest.TestLoader().loadTestsFromTestCase(SearchItemTests)

@@ -3,7 +3,7 @@ from traceback import print_stack
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
-import utilities.custom_logger as cl
+import Utilities.custom_logger as cl
 import logging
 import time
 import os

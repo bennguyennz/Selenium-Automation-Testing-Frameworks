@@ -124,10 +124,16 @@ class SeleniumDriver():
 
         try:
             if direction == 'up':
-                self.driver.execute_script("window.scrollBy(0,-1000);")
+                self.driver.execute_script("window.scrollBy(0,-400);")
                 return True
             elif direction == 'down':
-                self.driver.execute_script("window.scrollBy(0,1000);")
+                self.driver.execute_script("window.scrollBy(0,400);")
+                return True
+            elif direction == 'up2x':
+                self.driver.execute_script("window.scrollBy(0,-800);")
+                return True
+            elif direction == 'down2x':
+                self.driver.execute_script("window.scrollBy(0,800);")
                 return True
             elif direction == 'right':
                 self.driver.execute_script("window.scrollBy(1000,0);")
@@ -143,9 +149,12 @@ class SeleniumDriver():
     # Method to Select value from the dropdown
     def select_dropdown(self,locator,value):
         try:
-            drop_down = self.driver.find_element(By.XPATH,locator)
-            sel_element = Select(drop_down)
-            sel_element.select_by_value(value)
+            dropdownlist = Select(self.driver.find_element(By.XPATH, locator))
+            dropdownlist.select_by_visible_text(value)
+
+            # drop_down = self.driver.find_element(By.ID, locator)
+            # sel_element = Select(drop_down)
+            # sel_element.select_by_value(value)
             return True
         except:
             self.log.error("Dropdown selection failed")
@@ -282,13 +291,13 @@ class SeleniumDriver():
 
 
     # Method to close browser
-    # def closebrowser(self):
-    #     try:
-    #         self.driver.close()
-    #         return True
-    #     except:
-    #         self.log.error("Close browser failed")
-    #         return False
+    def closebrowser(self):
+        try:
+            self.driver.close()
+            return True
+        except:
+            self.log.error("Close browser failed")
+            return False
 
 
     def switchto(self,property,value):
@@ -344,15 +353,15 @@ class SeleniumDriver():
 
 
     # Connect to DB via oracle string
-    def dbconnect(self):
-        try:
-            self.conn = cx_Oracle.Connection(self.constants.Conn_String)
-            # link cursor to the connection
-            self.curr = self.conn.cursor()
-            return True
-        except:
-            self.log.error("DB connection failed")
-            return False
+    # def dbconnect(self):
+    #     try:
+    #         self.conn = cx_Oracle.Connection(self.constants.Conn_String)
+    #         # link cursor to the connection
+    #         self.curr = self.conn.cursor()
+    #         return True
+    #     except:
+    #         self.log.error("DB connection failed")
+    #         return False
 
 
     # Get draft query
@@ -407,21 +416,22 @@ class SeleniumDriver():
 
 
     # compare db and UI value
-    def compare(self):
-        try:
-            # Using regex match only alphanumeric characters excluding special characters
-            # and replacing with blank character
-        #B    nDBvalue = re.sub("[^\w\.]", "", self.DBvalue)
-        #B    nUIvalue = re.sub("[^\w\.]", "", self.UIvalue)
-            # compare db and UI value
-            if nDBvalue == nUIvalue:
-                return True
-            else:
-                return False
-        except:
-            self.log.error("Comparison between DB and UI value failed")
-            return False
-
+    ###########
+    # def compare(self):
+    #     try:
+    #         # Using regex match only alphanumeric characters excluding special characters
+    #         # and replacing with blank character
+    #         nDBvalue = re.sub("[^\w\.]", "", self.DBvalue)
+    #         nUIvalue = re.sub("[^\w\.]", "", self.UIvalue)
+    #         # compare db and UI value
+    #         if nDBvalue == nUIvalue:
+    #             return True
+    #         else:
+    #             return False
+    #     except:
+    #         self.log.error("Comparison between DB and UI value failed")
+    #         return False
+#############B
 
             # Method to perform element click
 

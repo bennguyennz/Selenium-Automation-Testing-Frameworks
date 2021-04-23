@@ -1,6 +1,6 @@
 import pytest
-from pages.home.login_page import LoginPage
-from base.webdriverfactory import WebDriverFactory
+from Pages.home.login_page import LoginPage
+from Base.webdriverfactory import WebDriverFactory
 
 @pytest.yield_fixture()
 def setUp():

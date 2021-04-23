@@ -1,6 +1,6 @@
-import utilities.custom_logger as cl
+import Utilities.custom_logger as cl
 import logging
-from base.base_page import BasePage
+from Base.base_page import BasePage
 from selenium.webdriver.support.select import Select
 
 

@@ -1,8 +1,8 @@
 """
-@package base
+@package Base
 
 Base Page class implementation
-It implements methods which are common to all the pages throughout the application
+It implements methods which are common to all the Pages throughout the application
 
 This class needs to be inherited by all the page classes
 This should not be used by creating object instances
@@ -10,9 +10,9 @@ This should not be used by creating object instances
 Example:
     Class LoginPage(BasePage)
 """
-from base.selenium_driver import SeleniumDriver
+from Base.selenium_driver import SeleniumDriver
 from traceback import print_stack
-from utilities.util import Util
+from Utilities.util import Util
 
 
 class BasePage(SeleniumDriver):

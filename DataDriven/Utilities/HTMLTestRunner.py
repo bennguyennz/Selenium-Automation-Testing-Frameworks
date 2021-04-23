@@ -7,7 +7,7 @@ The simplest way to use this is to invoke its main method. E.g.
     import unittest
     import HTMLTestRunner
 
-    ... define your tests ...
+    ... define your Tests ...
 
     if __name__ == '__main__':
         HTMLTestRunner.main()
@@ -795,7 +795,7 @@ class HTMLTestRunner(Template_mixin):
 
 
 ##############################################################################
-# Facilities for running tests from the command line
+# Facilities for running Tests from the command line
 ##############################################################################
 
 # Note: Reuse unittest.TestProgram to launch test. In the future we may
@@ -803,12 +803,12 @@ class HTMLTestRunner(Template_mixin):
 # parameters like test title, CSS, etc.
 class TestProgram(unittest.TestProgram):
     """
-    A variation of the unittest.TestProgram. Please refer to the base
+    A variation of the unittest.TestProgram. Please refer to the Base
     class for command line parameters.
     """
     def runTests(self):
         # Pick HTMLTestRunner as the default test runner.
-        # base class's testRunner parameter is not useful because it means
+        # Base class's testRunner parameter is not useful because it means
         # we have to instantiate HTMLTestRunner before we know self.verbosity.
         if self.testRunner is None:
             self.testRunner = HTMLTestRunner(verbosity=self.verbosity)

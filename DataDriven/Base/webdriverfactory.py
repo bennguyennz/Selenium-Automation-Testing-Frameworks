@@ -1,5 +1,5 @@
 """
-@package base
+@package Base
 
 WebDriver Factory class implementation
 It creates a webdriver instance based on browser configurations

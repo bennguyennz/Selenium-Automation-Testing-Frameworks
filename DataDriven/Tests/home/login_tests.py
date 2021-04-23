@@ -1,9 +1,9 @@
-from pages.home.login_page import LoginPage
-from utilities.trackstatus import TrackStatus
+from Pages.home.login_page import LoginPage
+from Utilities.trackstatus import TrackStatus
 import unittest
 import pytest
 from ddt import ddt, data, unpack
-from utilities.read_data import getCSVData
+from Utilities.read_data import getCSVData
 
 
 # Use oneTimeSetUp and setUp from conftest

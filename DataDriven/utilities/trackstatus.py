@@ -1,5 +1,5 @@
 """
-@package utilities
+@package Utilities
 
 CheckPoint class implementation
 It provides functionality to assert the result
@@ -7,9 +7,9 @@ It provides functionality to assert the result
 Example:
     self.check_point.markFinal("Test Name", result, "Message")
 """
-import utilities.custom_logger as cl
+import Utilities.custom_logger as cl
 import logging
-from base.selenium_driver import SeleniumDriver
+from Base.selenium_driver import SeleniumDriver
 from traceback import print_stack
 
 

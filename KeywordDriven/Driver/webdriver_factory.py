@@ -15,30 +15,22 @@ class GetWebdriverInstance():
 
     # Method to invoke browser based on the input from the command prompt
     def getbrowserInstance(self):
-        if (self.browser == 'IE'):
+        if (self.browser == 'Firefox'):
+            driver = webdriver.Firefox()
+            
+        # elif (self.browser == 'IE'):
+        #     driver_location = self.constants.Path_IE_driver
+        #     os.environ["webdriver.IE.driver"] = driver_location
+        #     driver = webdriver.Ie(driver_location)
 
-            driver_location = self.constants.Path_IE_driver
-            os.environ["webdriver.IE.driver"] = driver_location
-            driver = webdriver.Ie(driver_location)
-            driver.maximize_window()
-            driver.implicitly_wait(5)
-            driver.delete_all_cookies()
-
-        elif (self.browser == 'Chrome'):
-
+        else:
             driverLocation = self.constants.Path_Chrome_driver
             os.environ["webdriver.chrome.driver"] = driverLocation
             driver = webdriver.Chrome(driverLocation)
-            driver.maximize_window()
-            driver.implicitly_wait(5)
-            driver.delete_all_cookies()
 
-        else:
-            driver = webdriver.Firefox()
-            driver.maximize_window()
-            driver.implicitly_wait(5)
-            driver.delete_all_cookies()
-
+        driver.maximize_window()
+        driver.implicitly_wait(5)
+        driver.delete_all_cookies()
         return driver
 
 

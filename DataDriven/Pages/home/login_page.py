@@ -1,7 +1,7 @@
-import utilities.custom_logger as cl
+import Utilities.custom_logger as cl
 import logging
-from base.base_page import BasePage
-from pages.home.navigation_page import NavigationPage
+from Base.base_page import BasePage
+from Pages.home.navigation_page import NavigationPage
 import time
 
 
@@ -45,14 +45,12 @@ class LoginPage(BasePage):
     def login(self, email="", password=""):
 
         self.clickLoginLink()
-        time.sleep(0.5)
+        time.sleep(1)
         self.webScroll()
         self.enterEmail(email)
-        time.sleep(0.5)
         self.enterPassword(password)
-        time.sleep(0.5)
         self.clickLoginButton()
-        time.sleep(0.5)
+        time.sleep(1)
 
     def verifyLoginSuccessful(self):
         result = self.isElementPresent(locator=self._successful_validation,
