@@ -22,17 +22,20 @@ class SearchItemTests(unittest.TestCase):
     @unpack
     def test_searchItem(self,category,itemSearch):
         #click category Women
-        self.items.clickCategory(category)
+        resutlStep1 = self.items.clickCategory(category)
+        self.ts.mark(resutlStep1,"Click a Category")
         time.sleep(1)
-        selectItem = self.items.selectItem(itemSearch)
-        #print("Item selected: " + selectItem)
+        resultStep2 = self.items.selectItem(itemSearch)
+        self.ts.mark(resultStep2[1],"Select item with name: " + resultStep2[0] )
         time.sleep(1)
-        self.items.searchItem(selectItem)
+        resultStep3 = self.items.searchItem(resultStep2[0])
+        self.ts.mark(resultStep3,"Search item")
+
         time.sleep(1)
-        SearchResult = self.items.getSearchResult(selectItem)
+        resultStep4 = self.items.getSearchResult(resultStep2[0])
         time.sleep(1)
         #print("Item name returned: " + SearchResult)
         # if selectItem != SearchResult:
         # print("Search result")
-
+        self.ts.markFinal("test_searchItem", resultStep4, "Verify search result")
         self.driver.back()

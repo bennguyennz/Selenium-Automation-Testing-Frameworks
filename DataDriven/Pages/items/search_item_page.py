@@ -2,6 +2,7 @@ import Utilities.custom_logger as cl
 import logging
 from Base.base_page import BasePage
 import time
+from traceback import print_stack
 
 class SearchItemPage(BasePage):
 
@@ -28,32 +29,43 @@ class SearchItemPage(BasePage):
 
     # click category Women
     def clickCategory(self,category):
-        if category == "Women":
-            _category = "//a[@class='sf-with-ul'][normalize-space()='Women']"
-        elif category == "Dresses":
-            _category = "//div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses']"
-        elif category == "T-shirts":
-            _category = "//div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts']"
-        else:
-            _category = ""
-            print("Category is not defined.")
+        try:
+            if category == "Women":
+                _category = "//a[@class='sf-with-ul'][normalize-space()='Women']"
+            elif category == "Dresses":
+                _category = "//div[@id='block_top_menu']/ul/li[2]/a[@title='Dresses']"
+            elif category == "T-shirts":
+                _category = "//div[@id='block_top_menu']/ul/li[3]/a[@title='T-shirts']"
+            self.elementClick(locator=_category, locatorType="xpath")
+            self.webScroll("down", 800)
+            return True
 
-        self.elementClick(locator=_category,locatorType="xpath")
-        self.webScroll("down",800)
+        except:
+            self.log.info("Category is not defined.")
+            return False
 
     # Select an item and get its name
     def selectItem(self,itemSearch):
-        products = self.driver.find_elements_by_xpath("//li[contains(@class,'ajax_block_product')]")
-        for product in products:
-            elementproduct = product.find_element_by_xpath("div/div/h5/a").text
-            if elementproduct == itemSearch:
-                return elementproduct
+        try:
+            products = self.driver.find_elements_by_xpath("//li[contains(@class,'ajax_block_product')]")
+            for product in products:
+                elementproduct = product.find_element_by_xpath("div/div/h5/a").text
+                if elementproduct == itemSearch:
+                    return elementproduct, True
+        except:
+            self.log.error("Failed to find an item")
+            return False
 
     # Enter this item into page search box and begin search
     def searchItem(self,itemName):
-        self.sendKeys(itemName,locator=self._search_box)
-        self.elementClick(locator=self._search_button,locatorType="name")
-        self.webScroll()
+        if itemName is not None:
+            self.sendKeys(itemName,locator=self._search_box)
+            self.elementClick(locator=self._search_button,locatorType="name")
+            self.webScroll()
+            return True
+        else:
+            self.log.error("Failed to find an item")
+            return False
 
     # Verify search result
     def getSearchResult(self, SelectItem):
@@ -62,10 +74,14 @@ class SearchItemPage(BasePage):
         #print(products)
         for product in products:
         #     if item.getElement(locator="div/div/h5/a",locatorType="xpath").text == SelectItem:
-            elementproduct = product.find_element_by_xpath("div/div/h5/a")
-            if elementproduct.text == SelectItem:
-                time.sleep(1)
-                elementproduct.click()
-                self.webScroll()
-
-        #return SearchResult
+            try:
+                productElement = product.find_element_by_xpath("div/div/h5/a")
+                productReturn = productElement.text
+                if productReturn == SelectItem:
+                    time.sleep(1)
+                    productElement.click()
+                    self.webScroll()
+                    return True
+            except:
+                self.log.error("Return item does not match")
+                return False

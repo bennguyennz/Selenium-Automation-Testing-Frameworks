@@ -2,6 +2,7 @@ import Utilities.custom_logger as cl
 import logging
 from Base.base_page import BasePage
 from selenium.webdriver.support.select import Select
+from traceback import print_stack
 
 
 class CheckoutItemPage(BasePage):
@@ -43,35 +44,48 @@ class CheckoutItemPage(BasePage):
         self.elementClick(locator=self._search_box_button, locatorType="name")
 
     def selectItem(self, ItemName):
-        self.webScroll()
-        self.elementClick(locator=self._item_name.format(ItemName), locatorType="xpath")
+        try:
+            if self.getElement(locator=self._item_name.format(ItemName),locatorType="xpath"):
+                self.elementClick(locator=self._item_name.format(ItemName), locatorType="xpath")
+                self.webScroll()
+                return True
+        except:
+            self.log.info("Item not found with locator " + self._item_name.format(ItemName) + " and locatorType xpath")
+            return False
 
     def clickOnAddtoCart(self,_size="", _color=""):
         dropdownlist = Select(self.getElement(locator = self._dropdown_list))
         dropdownlist.select_by_visible_text(format(_size))
         self.elementClick(locator = self._choose_color.format(_color), locatorType = "xpath")
         self.elementClick(locator = self._add_to_cart_button, locatorType = "xpath")
+        return True
 
     def clickProceedtoCheckout(self):
         self.elementClick(locator = self._proceed_to_checkout_button,locatorType = "xpath")
+        return True
 
     def clickProceedtoCheckout_Sumary(self):
         self.elementClick(locator=self._proceed_to_checkout_summary,locatorType="css")
+        return True
 
     def clickProceedtoCheckout_Address(self):
         self.elementClick(locator=self._process_address_button,locatorType="name")
+        return True
 
     def clickProceedtoCheckout_Shipping(self):
         self.elementClick(locator=self._checkbox)
         self.elementClick(locator=self._process_carrier_button,locatorType="name")
+        return True
 
     def clickPayByCheck(self):
         self.elementClick(locator=self._pay_button,locatorType="class")
+        return True
 
     def clickConfirm(self):
         self.elementClick(locator=self._confirm_button,locatorType="css")
+        return True
 
     def verifyCompleteCheckout(self):
         self.webScroll()
-        result = self.isElementPresent(locator=self._validation_success, locatorType="xpath")
-        return result
+        self.isElementPresent(locator=self._validation_success, locatorType="xpath")
+        return True

@@ -76,17 +76,29 @@ class excelUtil():
             return 0
 
     # Return object xpath value
-    def getObjectValue(self,sheetname,objectname):
+    def getObjectValue(self,sheetname,locatorAlias):
         try:
             rowcount = self.getRowCount(sheetname)
             for i in range(0,rowcount):
-                if objectname == "":
+                if locatorAlias == "":
                     break
-                elif str(objectname) == str(self.getCellData(i,0,sheetname)):
-                    object_value = str(self.getCellData(i,self.constants.Col_Object_Value,sheetname))
-                    return object_value
+                elif str(locatorAlias) == str(self.getCellData(i,0,sheetname)):
+                    locatorValue = str(self.getCellData(i,self.constants.Col_Object_Value,sheetname))
+                    return locatorValue
         except:
             self.log.error("Failed to get object value")
+
+    def getObjectType(self, sheetname, locatorAlias):
+        try:
+            rowcount = self.getRowCount(sheetname)
+            for i in range(0, rowcount):
+                if locatorAlias == "":
+                    break
+                elif str(locatorAlias) == str(self.getCellData(i, 0, sheetname)):
+                    locatorType = str(self.getCellData(i, self.constants.Col_Object_Type, sheetname))
+                    return locatorType
+        except:
+            self.log.error("Failed to get locator type")
 
     # Get test case iterations count
     def getTestIterations(self,sheetname,testname):

@@ -32,15 +32,19 @@ class LoginPage(BasePage):
     # sendKeys is the custom method, not send_keys
     def clickLoginLink(self):
         self.elementClick(self._login_link, locatorType="link")
+        return True
 
     def enterEmail(self, email):
         self.sendKeys(email, self._email_field)
+        return True
 
     def enterPassword(self, password):
         self.sendKeys(password, self._password_field)
+        return True
 
     def clickLoginButton(self):
         self.elementClick(self._login_button, locatorType="id")
+        return True
 
     def login(self, email="", password=""):
 
@@ -72,6 +76,6 @@ class LoginPage(BasePage):
         return self.verifyPageTitle("Google")
 
     def logout(self):
-        self.nav.navigateToUserSettings()
+        #self.nav.navigateToUserSettings()
         self.elementClick(locator="Sign out",
                           locatorType="link")

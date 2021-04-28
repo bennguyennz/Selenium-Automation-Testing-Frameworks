@@ -24,19 +24,27 @@ class CheckOutItemTests(unittest.TestCase):
     @unpack
     def test_checkoutItem(self, search_keyword, item_name, size, color):
         self.items.enterSearchKeyword(search_keyword)
-        self.items.selectItem(item_name)
-        self.items.clickOnAddtoCart(size,color)
+        resultStep1 = self.items.selectItem(item_name)
+        self.ts.mark(resultStep1, "Select item")
+        resultStep2 = self.items.clickOnAddtoCart(size,color)
+        self.ts.mark(resultStep2, "Add to cart")
         time.sleep(1)
-        self.items.clickProceedtoCheckout()
-        self.items.clickProceedtoCheckout_Sumary()
-        self.items.clickProceedtoCheckout_Address()
-        self.items.clickProceedtoCheckout_Shipping()
-        self.items.clickPayByCheck()
-        self.items.clickConfirm()
-        result = self.items.verifyCompleteCheckout()
+        resultStep3 = self.items.clickProceedtoCheckout()
+        self.ts.mark(resultStep3, "Proceed to Checkout")
+        resultStep4 = self.items.clickProceedtoCheckout_Sumary()
+        self.ts.mark(resultStep4, "Proceed to Checkout-Summary")
+        resultStep5 = self.items.clickProceedtoCheckout_Address()
+        self.ts.mark(resultStep5, "Proceed to Checkout_Address")
+        resultStep6 = self.items.clickProceedtoCheckout_Shipping()
+        self.ts.mark(resultStep6, "Proceed to Checkout-Shipping")
+        resultStep7 = self.items.clickPayByCheck()
+        self.ts.mark(resultStep7, "Pay by Check")
+        resultStep8 = self.items.clickConfirm()
+        self.ts.mark(resultStep8, "Confirm")
+        finalresult = self.items.verifyCompleteCheckout()
         time.sleep(1)
-        self.ts.markFinal("test_checkoutItem", result,
-                          "Checkout Successful Verification")
+        self.ts.markFinal("test_checkoutItem", finalresult,
+                          "Checkout Verification")
 ######################
         # ALTERNATE WAY TO GO BACK USING JS:py.
         # self.driver.execute_script("window.history.go(-1)")

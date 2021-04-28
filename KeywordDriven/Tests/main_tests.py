@@ -34,7 +34,8 @@ class mainTests(unittest.TestCase):
         # Get row count in test suite worksheet
         ntotalTestCases = self.excel.getRowCount(self.constants.Sheet_TestCases)
 
-        # loop through testsuite worksheet and get test ids (Row id 1 thru last row)
+        # loop through testsuite
+        # worksheet and get test ids (Row id 1 thru last row)
         for ntestCase in range(1,(ntotalTestCases-1)):
             # Get test case id from test suite worksheet
             nTestCaseID = self.excel.getCellData(ntestCase,self.constants.Col_TestCaseID,self.constants.Sheet_TestCases)
@@ -69,6 +70,7 @@ class mainTests(unittest.TestCase):
                             nObject = self.excel.getCellData(step,self.constants.Col_PageObject,self.constants.Sheet_TestSteps)
                             # Get object xpath value
                             nObject_Value = self.excel.getObjectValue(self.constants.Sheet_Objectvalue,nObject)
+                            nLocator_Type = self.excel.getObjectType(self.constants.Sheet_Objectvalue,nObject)
                             # Get action keyword
                             nActionKeyword = self.excel.getCellData(step, self.constants.Col_ActionKeyword,self.constants.Sheet_TestSteps)
                             # Get property value
@@ -89,12 +91,10 @@ class mainTests(unittest.TestCase):
                             # Get data value from test data spreadsheet
                             #**********************************************
                             # store step execution status (Pass/Fail)
-                            stepresult = self.drivermethod.execute_keyword(nActionKeyword,nProperty,testdata_value,nObject_Value)
+                            stepresult = self.drivermethod.execute_keyword(nActionKeyword,nProperty,testdata_value,nObject_Value,nLocator_Type)
                             self.ts.mark(stepresult,nstepDescription)
                     # Test case status (Pass or Fail)
                     self.ts.markFinal(nTestCaseID,stepresult,nTestCaseDescription)
-
-
 
 
 

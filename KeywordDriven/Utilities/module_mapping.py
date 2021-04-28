@@ -7,18 +7,18 @@ class driver_mapping(SeleniumDriver):
         self.driver = driver
 
     # Execute the keyword functions and return the status
-    def execute_keyword(self,keyword,attribute,value,objectname):
+    def execute_keyword(self,keyword, attribute, value, locator, locatorType):
         if keyword == 'navigate':
             result = None
             result = self.navigate(value)
             return result
         elif keyword == 'input':
             result = None
-            result = self.sendKeys(value,objectname)
+            result = self.sendKeys(value,locator,locatorType)
             return result
         elif keyword == "click":
             result = None
-            result = self.elementClick(objectname)
+            result = self.elementClick(locator,locatorType)
             return result
         elif keyword == "wait":
             result = None
@@ -26,19 +26,19 @@ class driver_mapping(SeleniumDriver):
             return result
         elif keyword == "select_checkbox":
             result = None
-            result = self.select_checkbox(objectname,value)
+            result = self.select_checkbox(value, locator, locatorType)
             return result
         elif keyword == "select_dropdown":
             result = None
-            result = self.select_dropdown(objectname,value)
+            result = self.select_dropdown(value, locator,locatorType)
             return result
         elif keyword == "unselect_checkbox":
             result = None
-            result = self.unselect_checkbox(objectname,value)
+            result = self.unselect_checkbox(value,locator,locatorType)
             return result
         elif keyword == "select_radio":
             result = None
-            result = self.select_radio(objectname,value)
+            result = self.select_radio(value, locator, locatorType)
             return result
         elif keyword == "scroll":
             result = None
@@ -46,11 +46,11 @@ class driver_mapping(SeleniumDriver):
             return result
         elif keyword == "verify":
             result = None
-            result = self.verify(attribute,value,objectname)
+            result = self.verify(attribute,value,locator,locatorType)
             return result
         elif keyword == "moveto":
             result = None
-            result = self.moveto(objectname)
+            result = self.moveto(locator,locatorType)
             return result
         elif keyword == "waitfor":
             element_wait = self.waitforelement(value)
@@ -66,7 +66,7 @@ class driver_mapping(SeleniumDriver):
             return result
         elif keyword == "dragto":
             result = None
-            result = self.dragndrop(objectname,value)
+            result = self.dragndrop(locator,locatorType,value)
             return result
         elif keyword == "closebrowser":
             result = None
@@ -78,11 +78,11 @@ class driver_mapping(SeleniumDriver):
             return result
         elif keyword == "waitfor":
             result=None
-            result=self.waitforelement(objectname)
+            result=self.waitforelement(locator,locatorType)
             return result
         elif keyword == "savedata":
             result=None
-            result = self.savedata(objectname,value)
+            result = self.savedata(locator,locatorType,value)
             return result
         elif keyword == "dbconnect":
             result=None
@@ -110,7 +110,7 @@ class driver_mapping(SeleniumDriver):
             return result
         elif keyword == "doubleclick":
              result = None
-             result = self.doubleClick(objectname)
+             result = self.doubleClick(locator,locatorType)
              return result
         else:
             self.log.info("Bad keyword or not found. All keywords should be in lowercase!!")

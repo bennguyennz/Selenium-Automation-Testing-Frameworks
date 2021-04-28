@@ -42,7 +42,6 @@ class WebDriverFactory():
             'WebDriver Instance'
         """
         baseURL = "http://automationpractice.com/index.php"
-        #baseURL = "https://letskodeit.teachable.com"
         if self.browser == "iexplorer":
             # Set ie driver
             driver = webdriver.Ie()
@@ -60,9 +59,6 @@ class WebDriverFactory():
         driver.implicitly_wait(2)
         # Maximize the window
         driver.maximize_window()
-
-        #Zoom in/out browser
-        #driver.execute_script("document.body.style.zoom='80%'")
 
         #Set driver windows size
         driver.set_window_size(1280, 800)

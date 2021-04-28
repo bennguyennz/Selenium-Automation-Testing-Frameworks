@@ -15,6 +15,7 @@ class Constants():
     Col_TestScenarioID = 1
     Col_PageObject = 3
     Col_Object_Value = 1
+    Col_Object_Type = 2
     Col_ActionKeyword = 4
     Col_RunMode = 2
     Col_Result = 3

@@ -18,7 +18,7 @@ class SeleniumDriver():
         """
         Takes screenshot of the current open web page
         """
-        fileName = resultMessage + "." + str(round(time.time() * 1000)) + ".png"
+        fileName = resultMessage + "_" + str(round(time.time() * 1000)) + ".png"
         # Go up one directory to screenshots folder
         screenshotDirectory = "../screenshots/"
         relativeFileName = screenshotDirectory + fileName
@@ -33,10 +33,9 @@ class SeleniumDriver():
             if not os.path.exists(destinationDirectory):
                 os.makedirs(destinationDirectory)
             self.driver.save_screenshot(destinationFile)
-            self.log.info("Screenshot save to directory: " + destinationFile)
+            self.log.info("Screenshot saved to directory: " + destinationFile)
         except:
-            self.log.error("### Exception Occurred when taking screenshot")
-            print_stack()
+            self.log.info("### Exception Occurred when taking screenshot")
 
     def __init__(self, driver):
         self.driver = driver
@@ -70,8 +69,7 @@ class SeleniumDriver():
             locatorType = locatorType.lower()
             byType = self.getByType(locatorType)
             element = self.driver.find_element(byType, locator)
-            self.log.info("Element found with locator: " + locator +
-                          " and  locatorType: " + locatorType)
+
         except:
             self.log.info("Element not found with locator: " + locator +
                           " and  locatorType: " + locatorType)
@@ -83,8 +81,7 @@ class SeleniumDriver():
             locatorType = locatorType.lower()
             byType = self.getByType(locatorType)
             element = self.driver.find_elements(byType, locator)
-            self.log.info("Element list found with locator: " + locator +
-                          " and  locatorType: " + locatorType)
+
         except:
             self.log.info("Element list not found with locator: " + locator +
                           " and  locatorType: " + locatorType)
@@ -98,12 +95,10 @@ class SeleniumDriver():
             if locator:  # This means if locator is not empty
                 element = self.getElement(locator, locatorType)
             element.click()
-            self.log.info("Clicked on element with locator: " + locator +
-                          " locatorType: " + locatorType)
+
         except:
             self.log.info("Cannot click on the element with locator: " + locator +
                           " locatorType: " + locatorType)
-            print_stack()
 
     def sendKeys(self, data, locator="", locatorType="id", element=None):
         """
@@ -113,12 +108,10 @@ class SeleniumDriver():
             if locator:  # This means if locator is not empty
                 element = self.getElement(locator, locatorType)
             element.send_keys(data)
-            self.log.info("Sent data on element with locator: " + locator +
-                          " locatorType: " + locatorType)
+
         except:
             self.log.info("Cannot send data on the element with locator: " + locator +
                           " locatorType: " + locatorType)
-            print_stack()
 
     def getText(self, locator="", locatorType="id", element=None, info=""):
         """
@@ -140,7 +133,6 @@ class SeleniumDriver():
                 text = text.strip()
         except:
             self.log.error("Failed to get text on element " + info)
-            print_stack()
             text = None
         return text
 
@@ -152,8 +144,6 @@ class SeleniumDriver():
             if locator:  # This means if locator is not empty
                 element = self.getElement(locator, locatorType)
             if element is not None:
-                self.log.info("Element present with locator: " + locator +
-                              " locatorType: " + locatorType)
                 return True
             else:
                 self.log.info("Element not present with locator: " + locator +
@@ -173,14 +163,13 @@ class SeleniumDriver():
                 element = self.getElement(locator, locatorType)
             if element is not None:
                 isDisplayed = element.is_displayed()
-                self.log.info("Element is displayed with locator: " + locator +
-                              " locatorType: " + locatorType)
+
             else:
                 self.log.info("Element not displayed with locator: " + locator +
                               " locatorType: " + locatorType)
             return isDisplayed
         except:
-            print("Element not found")
+            self.log.info("Element not found")
             return False
 
     def elementPresenceCheck(self, locator, byType):
@@ -217,7 +206,6 @@ class SeleniumDriver():
             self.log.info("Element appeared on the web page")
         except:
             self.log.info("Element not appeared on the web page")
-            print_stack()
         return element
 
     def webScroll(self, direction="down",value = 400):

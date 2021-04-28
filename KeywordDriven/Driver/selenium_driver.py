@@ -20,7 +20,7 @@ class SeleniumDriver():
     log = lg.customLogger(logging.DEBUG)
 
     # Set init value for driver and Constants
-    def __init__(self,driver):
+    def __init__(self, driver):
         self.driver = driver
         self.constants = Constants()
         self.UIvalue = None
@@ -30,7 +30,7 @@ class SeleniumDriver():
 
 
     # Method for browser navigation
-    def navigate(self,datavalue):
+    def navigate(self, datavalue):
         try:
             self.driver.get(datavalue)
             return True
@@ -38,13 +38,33 @@ class SeleniumDriver():
             self.log.error("Navigation failed")
             return False
 
-    # Get web element based on the locator value
-    def getelement(self,locator):
-        try:
-            element = self.driver.find_element(By.XPATH,locator)
-        except:
-            self.log.info("Element not found")
+    def getLocatorType(self, locatorType):
+        locatorType = locatorType.lower()
+        if locatorType == "id":
+            return By.ID
+        elif locatorType == "name":
+            return By.NAME
+        elif locatorType == "xpath":
+            return By.XPATH
+        elif locatorType == "css-selector":
+            return By.CSS_SELECTOR
+        elif locatorType == "classname":
+            return By.CLASS_NAME
+        elif locatorType == "linktext":
+            return By.LINK_TEXT
+        else:
+            self.log.info("Locator type " + locatorType +
+                          " not correct/supported")
+        return False
 
+    # Get web element based on the locator value
+    def getelement(self, locator, locatorType="id"):
+        try:
+            locatorType = locatorType.lower()
+            byType = self.getLocatorType(locatorType)
+            element = self.driver.find_element(byType, locator)
+        except:
+            self.log.info("Element not found with locator: " + locator +" and  locatorType: " + locatorType)
         return element
 
 
@@ -53,28 +73,29 @@ class SeleniumDriver():
         try:
 
             elementtofind = None
-            elementtofind = self.driver.find_elements(By.XPATH,locator)
+            elementtofind = self.driver.find_elements(By.XPATH, locator)
             # If element occurance found then return True
             if len(elementtofind) > 0:
                 return True
             else:
-                return False
                 self.log.info("Element not found")
+                return False
         except:
             self.log.info("Some error occured, element not found")
             return False
 
     # Method to wait for an element
-    def waitforelement(self,locator):
+    def waitforelement(self,locator,locatorType="id"):
         try:
             elementowait = None
             nwait=None
+            byType = self.getLocatorType(locatorType)
             # wait object with certain seconds and ignoring conditions
             nwait = WebDriverWait(self.driver,10,poll_frequency=1,
                                  ignored_exceptions=[NoSuchElementException,ElementNotVisibleException,
                                                      ElementNotSelectableException])
             # Wait for an element until the expected conditions are met
-            elementowait = nwait.until(EC.presence_of_element_located((By.XPATH,locator)))
+            elementowait = nwait.until(EC.presence_of_element_located((byType,locator)))
             return elementowait
 
         except Exception as e:
@@ -84,32 +105,37 @@ class SeleniumDriver():
 
 
     # Method to perform element click
-    def elementClick(self,locator):
+    def elementClick(self, locator, locatorType="id", element=None):
         try:
-            self.getelement(locator).click()
+            if locator:
+                element = self.getelement(locator,locatorType)
+                element.click()
             return True
         except:
             self.log.info("Element not clicked")
             return False
 
     # Method to enter/type text
-    def sendKeys(self,data,locator):
+    def sendKeys(self, data, locator, locatorType="id", element=None):
         try:
-            self.getelement(locator).clear()
-            self.getelement(locator).send_keys(data)
+            if locator:
+                element = self.getelement(locator,locatorType)
+            element.clear()
+            element.send_keys(data)
             return True
         except:
             self.log.info("Cannot send data to the element")
             return False
 
     # Method to capture screenshot
-    def capturescreen(self):
+    def capturescreen(self, resultMessage=None):
 
         try:
-            filename = "Scrnshot"+"_"+str(round(time.time()*1000))+".png"
+            filename = "Scrnshot" + "_" + resultMessage + "_" + str(round(time.time()*1000)) + ".png"
             folder_location = self.constants.Path_Snapshot
             destination = folder_location+filename
             self.driver.save_screenshot(destination)
+            self.log.info("Screenshot saved to directory: " + destination)
             return True
         except NotADirectoryError:
             self.log.info("Capture screenshot failed")
@@ -147,25 +173,25 @@ class SeleniumDriver():
 
 
     # Method to Select value from the dropdown
-    def select_dropdown(self,locator,value):
+    def select_dropdown(self,value, locator, locatorType, element=None):
         try:
-            dropdownlist = Select(self.driver.find_element(By.XPATH, locator))
+            locatorType = locatorType.lower()
+            byType = self.getLocatorType(locatorType)
+            element = self.driver.find_element(byType, locator)
+            dropdownlist = Select(element)
             dropdownlist.select_by_visible_text(value)
-
-            # drop_down = self.driver.find_element(By.ID, locator)
-            # sel_element = Select(drop_down)
-            # sel_element.select_by_value(value)
             return True
         except:
             self.log.error("Dropdown selection failed")
             return False
 
     # Method to Select radio button
-    def select_radio(self,locator,datavalue):
+    def select_radio(self,datavalue, locator,locatorType="id"):
         try:
             #update locator xpath with parameter datavalue
+            byType = self.getLocatorType(locatorType)
             ulocator = locator.format(datavalue)
-            nradio = self.driver.find_element(By.XPATH,ulocator)
+            nradio = self.driver.find_element(byType,ulocator)
             nradio.click()
             ulocator = ""
             return True
@@ -174,12 +200,13 @@ class SeleniumDriver():
             return False
 
     # Method to Select checkbox
-    def select_checkbox(self,locator,datavalue):
+    def select_checkbox(self,datavalue, locator, locatorType="id"):
 
         try:
             #update locator xpath with parameter datavalue
+            byType = self.getLocatorType(locatorType)
             ulocator = locator.format(datavalue)
-            ncheckbox = self.driver.find_element(By.XPATH,ulocator)
+            ncheckbox = self.driver.find_element(byType,ulocator)
             isSelected = ncheckbox.is_selected()
             if not isSelected:
                 ncheckbox.click()
@@ -191,12 +218,13 @@ class SeleniumDriver():
 
 
     # Method to unselect checkbox
-    def unselect_checkbox(self,locator,datavalue):
+    def unselect_checkbox(self, datavalue, locator, locatorType="id"):
 
         try:
             #update locator xpath with parameter datavalue
+            byType = self.getLocatorType(locatorType)
             ulocator = locator.format(datavalue)
-            ncheckbox = self.driver.find_element(By.XPATH,ulocator)
+            ncheckbox = self.driver.find_element(byType,ulocator)
             isSelected = ncheckbox.is_selected()
             if isSelected:
                 ncheckbox.click()
@@ -217,32 +245,33 @@ class SeleniumDriver():
             return False
 
     # Method to verify Text, enabled, selected, displayed, exists, title
-    def verify(self,property,value,locator):
+    def verify(self,property,value,locator,locatorType="id"):
         try:
+            byType = self.getLocatorType(locatorType)
             if property == "text":
                 UI_Text = None
-                UI_Text = self.driver.find_element(By.XPATH,locator).text
+                UI_Text = self.driver.find_element(byType,locator).text
                 if str(UI_Text) == str(value):
                     return True
                 else:
                     return False
             elif property == "enabled":
                 enable_flag = None
-                enable_flag = self.driver.find_element(By.XPATH,locator).is_enabled()
+                enable_flag = self.driver.find_element(byType,locator).is_enabled()
                 if str(enable_flag) == str(value):
                     return True
                 else:
                     return False
             elif property == "selected":
                 select_flag = None
-                select_flag = self.driver.find_element(By.XPATH, locator).is_selected()
+                select_flag = self.driver.find_element(byType, locator).is_selected()
                 if str(select_flag) == str(value):
                     return True
                 else:
                     return False
             elif property == "displayed":
                 display_flag = None
-                display_flag = self.driver.find_element(By.XPATH, locator).is_displayed()
+                display_flag = self.driver.find_element(byType, locator).is_displayed()
                 if str(display_flag) == str(value):
                     return True
                 else:
@@ -266,10 +295,11 @@ class SeleniumDriver():
             return False
 
     # Method to move cursor to an element
-    def moveto(self,locator):
+    def moveto(self,locator,locatorType="id"):
         try:
             element = None
-            element = self.driver.find_element(By.XPATH,locator)
+            byType = self.getLocatorType(locatorType)
+            element = self.driver.find_element(byType,locator)
             action = ActionChains(self.driver)
             action.move_to_element(element).perform()
             return True
@@ -278,10 +308,11 @@ class SeleniumDriver():
             return False
 
     # Method to drag and drop element from source to destination
-    def dragndrop(self,locator,value):
+    def dragndrop(self,value, locator, locatorType="id"):
         try:
-            from_element = self.driver.find_element(By.XPATH,locator)
-            to_element = self.driver.find_element(By.XPATH,value)
+            byType = self.getLocatorType(locatorType)
+            from_element = self.driver.find_element(byType,locator)
+            to_element = self.driver.find_element(byType,value)
             action = ActionChains(self.driver)
             action.drag_and_drop(from_element,to_element).perform()
             return True
@@ -340,10 +371,13 @@ class SeleniumDriver():
 
 
     # Get UI value in a variable
-    def savedata(self,locator,value):
+    def savedata(self,value, locator, locatorType="id"):
         try:
             value = None
-            value = str(self.driver.find_element(By.XPATH,locator).text).strip()
+            element = None
+            byType = self.getLocatorType(locatorType)
+            element = self.driver.find_element(byType, locator)
+            value = str(element.text).strip()
             self.UIvalue = value
             #print("UI value is "+self.UIvalue)
             return True
@@ -435,10 +469,10 @@ class SeleniumDriver():
 
             # Method to perform element click
 
-    def doubleClick(self, locator):
+    def doubleClick(self, locator, locatorType="id"):
         try:
             element = None
-            element = self.getelement(locator)
+            element = self.getelement(locator,locatorType)
             action = ActionChains(self.driver)
             action.double_click(element).perform()
             return True
