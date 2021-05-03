@@ -32,15 +32,15 @@ class TrackStatus(SeleniumDriver):
                     self.log.info("## VERIFICATION SUCCESSFUL: " + resultMessage)
                 else:
                     self.resultList.append("FAIL")
-                    self.log.error("*** VERIFICATION FAILED: " + resultMessage + " ***")
+                    self.log.error("*** VERIFICATION FAILED: " + resultMessage)
                     self.screenShot(resultMessage)
             else:
                 self.resultList.append("FAIL")
-                self.log.error("*** VERIFICATION FAILED: " + resultMessage + " ***")
+                self.log.error("*** VERIFICATION FAILED: " + resultMessage)
                 self.screenShot(resultMessage)
         except:
             self.resultList.append("FAIL")
-            self.log.error("*** Exception Occurred!!!" + " ***")
+            self.log.error("*** Exception Occurred!!!")
             self.screenShot(resultMessage)
             print_stack()
 

@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver import ActionChains
 from Utilities.Constants import Constants
 #import cx_Oracle
-import re
+#import re
 ##################################################
 import time
 import logging

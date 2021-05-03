@@ -69,7 +69,8 @@ class SeleniumDriver():
             locatorType = locatorType.lower()
             byType = self.getByType(locatorType)
             element = self.driver.find_element(byType, locator)
-
+            # self.log.info("Element found with locator: " + locator +
+            #               " and  locatorType: " + locatorType)
         except:
             self.log.info("Element not found with locator: " + locator +
                           " and  locatorType: " + locatorType)
@@ -81,7 +82,8 @@ class SeleniumDriver():
             locatorType = locatorType.lower()
             byType = self.getByType(locatorType)
             element = self.driver.find_elements(byType, locator)
-
+            # self.log.info("Element list found with locator: " + locator +
+            #           " and  locatorType: " + locatorType)
         except:
             self.log.info("Element list not found with locator: " + locator +
                           " and  locatorType: " + locatorType)
@@ -95,7 +97,8 @@ class SeleniumDriver():
             if locator:  # This means if locator is not empty
                 element = self.getElement(locator, locatorType)
             element.click()
-
+            self.log.info("Clicked on element with locator: " + locator +
+                          " locatorType: " + locatorType)
         except:
             self.log.info("Cannot click on the element with locator: " + locator +
                           " locatorType: " + locatorType)
@@ -108,7 +111,8 @@ class SeleniumDriver():
             if locator:  # This means if locator is not empty
                 element = self.getElement(locator, locatorType)
             element.send_keys(data)
-
+            self.log.info("Sent data on element with locator: " + locator +
+                          " locatorType: " + locatorType)
         except:
             self.log.info("Cannot send data on the element with locator: " + locator +
                           " locatorType: " + locatorType)
@@ -144,13 +148,15 @@ class SeleniumDriver():
             if locator:  # This means if locator is not empty
                 element = self.getElement(locator, locatorType)
             if element is not None:
+                self.log.info("Element present with locator: " + locator +
+                              " locatorType: " + locatorType)
                 return True
             else:
                 self.log.info("Element not present with locator: " + locator +
                               " locatorType: " + locatorType)
                 return False
         except:
-            print("Element not found")
+            self.log.info("Element not found")
             return False
 
     def isElementDisplayed(self, locator="", locatorType="id", element=None):
@@ -163,7 +169,8 @@ class SeleniumDriver():
                 element = self.getElement(locator, locatorType)
             if element is not None:
                 isDisplayed = element.is_displayed()
-
+                self.log.info("Element is displayed with locator: " + locator +
+                          " locatorType: " + locatorType)
             else:
                 self.log.info("Element not displayed with locator: " + locator +
                               " locatorType: " + locatorType)

@@ -50,11 +50,13 @@ class LoginPage(BasePage):
 
         self.clickLoginLink()
         time.sleep(1)
+        self.log.info("Wait for a while")
         self.webScroll()
         self.enterEmail(email)
         self.enterPassword(password)
         self.clickLoginButton()
         time.sleep(1)
+        self.log.info("Wait for a while")
 
     def verifyLoginSuccessful(self):
         result = self.isElementPresent(locator=self._successful_validation,

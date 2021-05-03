@@ -20,18 +20,18 @@ class TrackStatus(SeleniumDriver):
             if result is not None:
                 if result:
                     self.resultList.append("PASS")
-                    self.log.info("## VERIFICATION SUCCESSFUL: " + resultMessage + " ####")
+                    self.log.info("## VERIFICATION SUCCESSFUL: " + resultMessage)
                 else:
                     self.resultList.append("FAIL")
-                    self.log.error("## VERIFICATION FAILED: " + resultMessage + " ####")
+                    self.log.error("*** VERIFICATION FAILED: " + resultMessage)
                     self.capturescreen(resultMessage)
             else:
                 self.resultList.append("FAIL")
-                self.log.error("## VERIFICATION FAILED: " + resultMessage + " ####")
+                self.log.error("*** VERIFICATION FAILED: " + resultMessage)
                 self.capturescreen(resultMessage)
         except:
             self.resultList.append("FAIL")
-            self.log.error("## Exception Occurred!!!" + " ####")
+            self.log.error("*** Exception Occurred!!!")
             self.capturescreen(resultMessage)
             print_stack()
 
@@ -50,6 +50,6 @@ class TrackStatus(SeleniumDriver):
             self.resultList.clear()
             assert True == False
         else:
-            self.log.info(testName + " ###### TEST SUCCESSFUL" + " #####")
+            self.log.info(testName + " ##### TEST SUCCESSFUL" + " #####")
             self.resultList.clear()
             assert True == True
