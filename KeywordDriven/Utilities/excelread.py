@@ -36,7 +36,7 @@ class excelUtil():
         except:
             self.log.error("Failed to get cell data: "+ str(RowNum)+ " "+ str(sheetname))
 
-    # Search for a value and exit if found and return rowid
+    # Search for a value and exit if found and return rowID
     def getRowContains(self,testname,ColNum,sheetname):
         RowNum = 0
         try:
@@ -76,26 +76,27 @@ class excelUtil():
             return 0
 
     # Return object xpath value
-    def getObjectValue(self,sheetname,locatorAlias):
+    def getLocator(self, sheetname, locatorKeyword):
         try:
-            rowcount = self.getRowCount(sheetname)
-            for i in range(0,rowcount):
-                if locatorAlias == "":
+            nTotalRow = self.getRowCount(sheetname)
+            for nRow in range(0,nTotalRow):
+                if locatorKeyword == "":
                     break
-                elif str(locatorAlias) == str(self.getCellData(i,0,sheetname)):
-                    locatorValue = str(self.getCellData(i,self.constants.Col_Object_Value,sheetname))
+                elif str(locatorKeyword) == str(self.getCellData(nRow, 0, sheetname)):
+                    locatorValue = str(self.getCellData(nRow, self.constants.Col_Locator, sheetname))
                     return locatorValue
         except:
             self.log.error("Failed to get object value")
 
-    def getObjectType(self, sheetname, locatorAlias):
+    def getLocatorType(self, sheetname, locatorKeyword):
         try:
-            rowcount = self.getRowCount(sheetname)
-            for i in range(0, rowcount):
-                if locatorAlias == "":
+            nTotalRow = self.getRowCount(sheetname)
+            for nRow in range(0, nTotalRow):
+                if locatorKeyword == "":
+
                     break
-                elif str(locatorAlias) == str(self.getCellData(i, 0, sheetname)):
-                    locatorType = str(self.getCellData(i, self.constants.Col_Object_Type, sheetname))
+                elif str(locatorKeyword) == str(self.getCellData(nRow, 0, sheetname)):
+                    locatorType = str(self.getCellData(nRow, self.constants.Col_LocatorType, sheetname))
                     return locatorType
         except:
             self.log.error("Failed to get locator type")

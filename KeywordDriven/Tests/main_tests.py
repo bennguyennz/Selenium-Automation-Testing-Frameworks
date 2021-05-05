@@ -32,17 +32,17 @@ class mainTests(unittest.TestCase):
     # Reads keywords, objects and other attributes to execute methods
     def execute_testCases(self):
         # Get row count in test suite worksheet
-        ntotalTestCases = self.excel.getRowCount(self.constants.Sheet_TestCases)
+        ntotalTestCases = self.excel.getRowCount(self.constants.Sheet_TestSuite)
 
         # loop through testsuite
         # worksheet and get test ids (Row id 1 thru last row)
         for ntestCase in range(1,(ntotalTestCases-1)):
             # Get test case id from test suite worksheet
-            nTestCaseID = self.excel.getCellData(ntestCase,self.constants.Col_TestCaseID,self.constants.Sheet_TestCases)
+            nTestCaseID = self.excel.getCellData(ntestCase, self.constants.Col_TestCaseID, self.constants.Sheet_TestSuite)
             # Get test case description
-            nTestCaseDescription = self.excel.getCellData(ntestCase,self.constants.Col_TestCaseDescription,self.constants.Sheet_TestCases)
+            nTestCaseDescription = self.excel.getCellData(ntestCase, self.constants.Col_TestCaseDescription, self.constants.Sheet_TestSuite)
             # Get runmode from testsuite worksheet
-            sRunMode = self.excel.getCellData(ntestCase,self.constants.Col_RunMode,self.constants.Sheet_TestCases)
+            sRunMode = self.excel.getCellData(ntestCase, self.constants.Col_RunMode, self.constants.Sheet_TestSuite)
 
             # If runmode is Yes then get first and last position of testcase id in TestSteps worksheet
             if sRunMode == 'Yes':
@@ -67,20 +67,20 @@ class mainTests(unittest.TestCase):
                             # Get step description
                             nstepDescription = self.excel.getCellData(step,self.constants.Col_TestDescription,self.constants.Sheet_TestSteps)
                             # Get object name
-                            nObject = self.excel.getCellData(step,self.constants.Col_PageObject,self.constants.Sheet_TestSteps)
+                            nLocatorKeyword = self.excel.getCellData(step, self.constants.Col_LocatorKeyword, self.constants.Sheet_TestSteps)
                             # Get object xpath value
-                            nObject_Value = self.excel.getObjectValue(self.constants.Sheet_Objectvalue,nObject)
-                            nLocator_Type = self.excel.getObjectType(self.constants.Sheet_Objectvalue,nObject)
+                            nLocator = self.excel.getLocator(self.constants.Sheet_Locators, nLocatorKeyword)
+                            nLocator_Type = self.excel.getLocatorType(self.constants.Sheet_Locators, nLocatorKeyword)
                             # Get action keyword
                             nActionKeyword = self.excel.getCellData(step, self.constants.Col_ActionKeyword,self.constants.Sheet_TestSteps)
                             # Get property value
-                            nProperty = self.excel.getCellData(step, self.constants.Col_ObjProperty,self.constants.Sheet_TestSteps)
+                            nPageProperty = self.excel.getCellData(step, self.constants.Col_PageProperty, self.constants.Sheet_TestSteps)
                             # Get data value (for dragto keyword datavalue should have xpath value)
                             if nActionKeyword == "dragto" or nActionKeyword == "waitfor":
-                                tempdata = self.excel.getCellData(step, self.constants.Col_Datavalue,self.constants.Sheet_TestSteps)
-                                ndataValue = self.excel.getObjectValue(self.constants.Sheet_Objectvalue,tempdata)
+                                tempdata = self.excel.getCellData(step, self.constants.Col_TestData, self.constants.Sheet_TestSteps)
+                                ndataValue = self.excel.getLocator(self.constants.Sheet_Locators, tempdata)
                             else:
-                                ndataValue = self.excel.getCellData(step, self.constants.Col_Datavalue,self.constants.Sheet_TestSteps)
+                                ndataValue = self.excel.getCellData(step, self.constants.Col_TestData, self.constants.Sheet_TestSteps)
                             testdata_value = self.excel.getTestdatavalue(nTestCaseID,ndataValue,ntest)
                             if testdata_value is None:
                                 testdata_value = ndataValue
@@ -91,7 +91,7 @@ class mainTests(unittest.TestCase):
                             # Get data value from test data spreadsheet
                             #**********************************************
                             # store step execution status (Pass/Fail)
-                            stepresult = self.drivermethod.execute_keyword(nActionKeyword,nProperty,testdata_value,nObject_Value,nLocator_Type)
+                            stepresult = self.drivermethod.execute_keyword(nActionKeyword,nPageProperty,testdata_value,nLocator,nLocator_Type)
                             self.ts.mark(stepresult,nstepDescription)
                     # Test case status (Pass or Fail)
                     self.ts.markFinal(nTestCaseID,stepresult,nTestCaseDescription)
