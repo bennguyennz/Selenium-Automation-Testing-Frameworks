@@ -1,15 +1,15 @@
 from Utilities.Test_Status import TrackStatus
 import unittest
 import pytest
-from ddt import ddt, data, unpack
+#rom ddt import ddt, data, unpack
 from Utilities.Constants import Constants
 from Utilities.excelread import excelUtil
-from Utilities.module_mapping import driver_mapping
+from Utilities.keyword_mapping import driver_mapping
 import Utilities.custom_logger as lg
 import logging
 
 @pytest.mark.usefixtures("invoke_browser")
-@ddt
+#@ddt
 class mainTests(unittest.TestCase):
 
     log = lg.customLogger(logging.INFO)

@@ -1,3 +1,7 @@
 email,password
-nguyenbinhit@gmail.com,invalidpass
+nguyenbinhit@gmail.com,invalidpassword
 invalid@email.com,1234576
+invalid@email.com,invalidpassword
+,1234567
+nguyenbinhit@gmail.com,
+,

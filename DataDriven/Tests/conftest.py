@@ -2,12 +2,12 @@ import pytest
 from Pages.home.login_page import LoginPage
 from Base.webdriverfactory import WebDriverFactory
 
+
 @pytest.yield_fixture()
 def setUp():
     #print("Running method level setUp")
     yield
     #print("Running method level tearDown")
-
 
 @pytest.yield_fixture(scope="class")
 def oneTimeSetUp(request, browser):

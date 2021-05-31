@@ -67,6 +67,9 @@ class driver_mapping(SeleniumDriver):
         elif keyword == "dragto":
             result = None
             result = self.dragndrop(locator,locatorType,value)
+        elif keyword == "hover":
+            result = None
+            result = self.hover(locator, locatorType)
             return result
         elif keyword == "closebrowser":
             result = None

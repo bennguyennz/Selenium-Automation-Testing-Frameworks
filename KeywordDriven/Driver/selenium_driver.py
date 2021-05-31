@@ -5,7 +5,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 import Utilities.custom_logger as lg
 from selenium.webdriver.support.ui import Select
-from selenium.webdriver import ActionChains
+#from selenium.webdriver import ActionChains
+from selenium.webdriver.common.action_chains import ActionChains
 from Utilities.Constants import Constants
 #import cx_Oracle
 #import re
@@ -115,6 +116,18 @@ class SeleniumDriver():
             self.log.info("Element not clicked")
             return False
 
+    # Method to perform hover
+    def hover(self, locator, locatorType="id", element=None):
+        try:
+            if locator:
+                action = ActionChains(self.driver)
+                element = self.getelement(locator, locatorType)
+                action.move_to_element(element).perform()
+            return True
+        except:
+            self.log.info("Element not hovered")
+            return False
+
     # Method to enter/type text
     def sendKeys(self, data, locator, locatorType="id", element=None):
         try:
@@ -155,10 +168,10 @@ class SeleniumDriver():
             elif direction == 'down':
                 self.driver.execute_script("window.scrollBy(0,400);")
                 return True
-            elif direction == 'up2x':
+            elif direction == 'upx2':
                 self.driver.execute_script("window.scrollBy(0,-800);")
                 return True
-            elif direction == 'down2x':
+            elif direction == 'downx2':
                 self.driver.execute_script("window.scrollBy(0,800);")
                 return True
             elif direction == 'right':
